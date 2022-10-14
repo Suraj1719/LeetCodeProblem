@@ -1,0 +1,47 @@
+//java solution taking O(n) time complexity and O(1) space 
+
+class Solution {
+    public int[] findDiagonalOrder(int[][] mat) {
+        if(mat.length==0 || mat[0].length==0)
+            return new int[0];
+        
+        int row=mat.length;
+        int col=mat[0].length;
+        int arr[]=new int[row*col];
+        int ind=0;
+        int c=0,r=0;
+        boolean up=true;//as there are two direction so we have to change 
+        while(r<row && c<col){
+            //when upward diagonal
+            if(up){
+               while(r>0 && c<col-1){
+                   arr[ind++]=mat[r][c];
+                   r--;c++;
+               } 
+                arr[ind++]=mat[r][c];
+                //if it is last column
+                if(c==col-1){
+                    r++;//we increase row
+                }else{
+                    c++;
+                }
+            }
+            
+            else{
+                //when downward diagonal
+                while(c>0 && r<row-1){
+                    arr[ind++]=mat[r][c];
+                   r++;c--;
+                }
+                arr[ind++]=mat[r][c];
+                   //if the row is last then we increment col
+                if(r==row-1)
+                    c++;
+                else
+                    r++;
+            }
+           up=!up;//we reverse the array direction 
+        }
+        return arr;
+    }
+}
