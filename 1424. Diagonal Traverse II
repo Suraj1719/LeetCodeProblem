@@ -1,0 +1,25 @@
+//java solution 
+
+class Solution {
+    public int[] findDiagonalOrder(List<List<Integer>> nums) {
+        Map<Integer, List<Integer>> map = new HashMap<>();
+        int totalElement=0,i=0,maxSize=0;
+        for(int j=nums.size()-1;j>=0;j--){
+            for(int k=0;k<nums.get(j).size();k++){
+                map.putIfAbsent(j + k, new ArrayList<>());
+                map.get(j+k).add(nums.get(j).get(k));
+                maxSize = Math.max(maxSize, j+k); // number of diagonal made
+                totalElement++;
+            }
+        }
+        int[] ans = new int[totalElement];
+        for (int key = 0; key <= maxSize; key++) {
+            List<Integer> value = map.get(key);
+            if (value == null) 
+                continue;
+            for (int val : value)
+                ans[i++] = val;
+        }
+        return ans;
+    }
+}
