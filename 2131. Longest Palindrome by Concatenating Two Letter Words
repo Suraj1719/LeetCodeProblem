@@ -1,0 +1,65 @@
+You are given an array of strings words. Each element of words consists of two lowercase English letters.
+
+Create the longest possible palindrome by selecting some elements from words and concatenating them in any order. Each element can be selected at most once.
+
+Return the length of the longest palindrome that you can create. If it is impossible to create any palindrome, return 0.
+
+A palindrome is a string that reads the same forward and backward.
+
+
+
+
+//code
+class Solution {
+    public static int longestPalindrome(String[] words) {
+        Map<String,Integer> normal=new HashMap<>();
+        Map<String,Integer> palindromic=new HashMap<>();
+        for(String word:words){
+            if(word.charAt(0)!=word.charAt(1)){
+                normal.put(word,normal.getOrDefault(word,0)+1);
+            }else{
+                palindromic.put(word,palindromic.getOrDefault(word,0)+1);
+            }
+        }
+        int count=0;
+        //use non palindromic
+        for(Map.Entry<String,Integer> entry:normal.entrySet()){
+            int value=entry.getValue();
+
+            if(value==0)
+                continue;
+            String key=entry.getKey();
+            //check its reverse string present or not
+            String rev=reverseString(key);
+            if(!normal.containsKey(rev)) continue;
+
+            int reverseCount=normal.get(rev);
+            int minValue=Math.min(value,reverseCount);
+
+            count=count+4*minValue;
+            normal.put(rev,0);//we can do it as it is no more usefull
+        }
+        //now palindromic
+        boolean leftOver=false;
+        for(Map.Entry<String,Integer> entry:palindromic.entrySet()){
+            String key=entry.getKey();
+            int value=entry.getValue();
+            if(value%2==0){
+                count+=2*value;
+            }else{
+                count+=2*value-2;
+                leftOver=true;//as if single sting is present we can use it in middle
+            }
+        }
+        if(leftOver==true)
+            count+=2;
+
+        return count;
+    }
+    private static String reverseString(String word){
+        char arr[]=new char[2];
+        arr[0]=word.charAt(1);
+        arr[1]=word.charAt(0);
+        return new String(arr);
+    }
+}
