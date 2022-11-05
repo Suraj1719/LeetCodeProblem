@@ -1,0 +1,66 @@
+LeetCode premium question
+From any string, we can form a subsequence of that string by deleting some number of 
+characters
+
+given a source string and a target string , return the minimum number of substring of source required , so that by concatenating  them we can get target
+if not return -1 .
+
+
+//Test cases you can use
+case-1
+source : xyz
+target : xzyxz    output=3
+	
+source : abc
+target : abcbc      output=2
+	
+source : abc
+target : acdbc      output=-1
+
+
+//java code
+
+import java.util.*;
+public class q1055ShortesWayToFormString {
+
+	public static void main(String[] args) {
+		Scanner sc=new Scanner(System.in);
+		String source=sc.next();
+		String target=sc.next();
+		int ans=shortestWay(source,target);
+		System.out.println(ans);
+
+	}
+
+	private static int shortestWay(String source, String target) {
+		int numberofSubSeq=0;
+		String remaining=target;
+		while(remaining.length()>0) {
+			StringBuilder subsequence=new StringBuilder();
+			int i=0;
+			int j=0;
+			while(i<source.length() && j<remaining.length()) {
+				if(source.charAt(i)==remaining.charAt(j)) {
+					subsequence.append(remaining.charAt(j));
+					j++;
+				}
+				i++;
+			}
+      
+			//if we do not get any substring
+			if(subsequence.length()==0) {
+				return -1;
+			}
+      
+			numberofSubSeq++;
+			
+      //System.out.println(numberofSubSeq);
+      
+//here we take the rest substring as remaining string to check sub string source
+remaining=remaining.substring(subsequence.length());
+			System.out.println(remaining);
+		}
+		return numberofSubSeq;
+	}
+
+}
