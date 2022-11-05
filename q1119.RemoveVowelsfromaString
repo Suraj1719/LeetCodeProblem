@@ -1,0 +1,37 @@
+leetcode premium
+given a string , Remove all the vowels from it and return new string .
+
+
+java code : -
+
+import java.util.*;
+
+public class Q1119RemoveVowelsfromaString {
+
+	public static void main(String[] args) {
+		Scanner sc=new Scanner(System.in);
+		String s=sc.next();
+		System.out.println(removeVowels(s));
+
+	}
+
+	private static String removeVowels(String s) {
+		int n=s.length();
+		StringBuilder res=new StringBuilder();
+		for(int i=0;i<n;i++) {
+			char ch=s.charAt(i);
+			if(isVowel(ch))
+				continue;
+			else
+				res.append(ch);
+		}
+		
+		return res.toString();
+	}
+
+	private static boolean isVowel(char ch) {
+		
+		return ch=='a' || ch=='e'||ch=='i' || ch=='o'||ch=='u';
+	}
+
+}
