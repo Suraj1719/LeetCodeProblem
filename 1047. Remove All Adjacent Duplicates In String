@@ -1,0 +1,42 @@
+You are given a string s consisting of lowercase English letters. A duplicate removal consists of choosing two adjacent and equal letters and removing them.
+We repeatedly make duplicate removals on s until we no longer can.
+Return the final string after all such duplicate removals have been made. It can be proven that the answer is unique.
+
+//approach -1 (using stack)
+//time complexity : O(n)   and space complexity :O(n) at worst case
+class Solution {
+    public String removeDuplicates(String s) {
+        Stack<Character> st=new Stack<>();
+        int n=s.length();
+        int i=0;
+        while(i<n){
+            char ch=s.charAt(i);
+            if(!st.isEmpty() && st.peek()==ch){
+                st.pop();
+            } else  {
+                st.push(ch);
+            }
+            i++;
+        }
+   }
+        
+//approach -2 using stringbuilder method
+//faster than stack approach as time complexity :O(n) and space complexity :O(1)
+//here we use stringbuilder method as string is immutable .
+class Solution {
+    public String removeDuplicates(String s) {
+
+        StringBuilder sb = new StringBuilder();
+        int slength = 0;
+        char[] arr = s.toCharArray();
+        for(char car: arr){
+            if(slength >0 && car == sb.charAt(slength - 1)){
+                sb.deleteCharAt(slength-- - 1);
+            }else{
+                sb.append(car);
+                slength++;
+            }
+        }
+        return sb.toString();
+    }
+}
