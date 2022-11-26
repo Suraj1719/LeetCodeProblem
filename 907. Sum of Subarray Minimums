@@ -1,0 +1,124 @@
+Given an array of integers arr, find the sum of min(b), where b ranges over every (contiguous) subarray of arr. Since the answer may be large, return the answer modulo 109 + 7.
+
+Example 1:
+
+Input: arr = [3,1,2,4]
+Output: 17
+Explanation: 
+Subarrays are [3], [1], [2], [4], [3,1], [1,2], [2,4], [3,1,2], [1,2,4], [3,1,2,4]. 
+Minimums are 3, 1, 2, 4, 1, 1, 2, 1, 1, 1.
+Sum is 17.
+
+approach-1(Brute force)
+time complexity - O(n^3)
+class Solution {
+    public int sumSubarrayMins(int[] arr) {
+       long ans=0;
+        int mod=1000000007;
+        int n=arr.length;
+        for(int i=0;i<n;i++){
+            PriorityQueue<Integer> p=new PriorityQueue<>();
+            for(int j=i;j<n;j++){
+                p.add(arr[j]);
+                ans+=p.peek();
+                ans=ans%mod;
+
+            }
+        }
+        return (int)ans%mod; 
+    }
+}
+//approach-2(optimised brute force)
+time complexity =O(n^2)
+public static int sumSubarrayMins(int[] arr) {
+        int ans=0;
+        int n=arr.length;
+      
+        int nsl[]=new int[n];
+        Arrays.fill(nsl,-1);
+        int nsr[]=new int[n];
+        Arrays.fill(nsr,n);
+        //filling of nsl by smallest number index present left to the element
+        for(int i=1;i<n;i++){
+            int temp=i;
+            while(temp>=0){
+                if(arr[temp]<arr[i]){
+                    nsl[i]=temp;
+                    break;
+                }
+                temp--;
+            }
+        }
+        //filling of nsr by smallest number index present to right side of the element
+        for(int i=n-2;i>=0;i--){
+            int temp=i;
+            while(temp<n){
+                if(arr[temp]<arr[i]){
+                    nsr[i]=temp;
+                    break;
+                }
+                temp++;
+            }
+        }
+//        for(int x:nsl){
+//            System.out.print(x+" ");
+//        }
+//        System.out.println();
+//        for(int x:nsr){
+//            System.out.print(x+" ");
+//        }
+//        System.out.println();
+        for(int i=0;i<n;i++){
+            int sub_arr=(i-nsl[i])*(nsr[i]-i);
+            ans+=arr[i]*sub_arr;
+        }
+        return ans;
+    }
+    
+    approach-3(above intution using stack for finding next smallest and previous smallest element)
+    class Solution {
+    public int sumSubarrayMins(int[] arr) {
+        long ans=0;
+        int n=arr.length;
+        int mod=1000000007;
+        int nsl[]=new int[n];
+        int nsr[]=new int[n];
+        //for nsl
+        Stack<Integer> l=new Stack<>();//store the index position of just left smaller element of current element
+        for(int i=0;i<n;i++){
+            if(l.isEmpty()){
+                nsl[i]=-1;
+            }else{
+                while(!l.isEmpty() && arr[l.peek()]>arr[i])
+                    l.pop();
+                nsl[i]=l.isEmpty()?-1:l.peek();
+            }
+            l.add(i);
+        }
+//Note : if duplicate element present then it repeatedly contribute to ans . so we consider any of one array
+        //equal to element and other strictly greater . Here in nsr we take equality
+        Stack<Integer> r=new Stack<>();//store the index position of just right smaller element of current element
+        for(int i=n-1;i>=0;i--){
+            if(r.isEmpty()){
+                nsr[i]=n;
+            }else{
+                while(!r.isEmpty() && arr[r.peek()]>=arr[i])
+                    r.pop();
+                nsr[i]=r.isEmpty()?n:r.peek();
+            }
+            r.add(i);
+        }
+
+
+        for(int i=0;i<n;i++){
+            long left_ele=i-nsl[i];
+            long right_ele=nsr[i]-i;
+            long total_way=left_ele*right_ele;
+            ans+=arr[i]*total_way;
+            ans=ans%mod;
+        }
+
+        return (int)ans%mod;
+    
+    }
+}
