@@ -1,0 +1,61 @@
+Find out the maximum sub-array of non negative numbers from an array.
+
+The sub-array should be contiguous i.e., a sub-array created by choosing the second and fourth element and skipping the third element is invalid.
+
+Maximum sub-array is defined in terms of the sum of the elements in the sub-array. Sub-array A is greater than sub-array B if sum(A) > sum(B).
+
+Example:
+a = [1, 2, 5, -7, 2, 3]
+The two sub-arrays are [1, 2, 5] [2, 3].
+The answer is [1, 2, 5] as its sum is larger than [2, 3]
+
+NOTE: If there is a tie, then compare with segment's length and return segment which has maximum length.
+If there is still a tie, then return the segment with minimum starting index.
+If no such subarray is present return "-1"
+
+code : -
+class Solution {
+
+    ArrayList<Integer> findSubarray(int a[], int n) {
+        int max_sum = 0;
+        int m_st = 0;
+        int m_end = 0;
+        int sum = 0;
+        int st = 0;
+        for(int i=0; i<n; i++) {
+            if(a[i]<0)
+            {
+                sum = 0;
+                st = i+1;
+            }
+            else
+            {
+                sum += a[i];
+            }
+            if(sum>max_sum)
+            {
+                m_st = st;
+                m_end = i+1;
+                max_sum = sum;
+            }
+            else if(sum==max_sum)
+            {
+                int cur_len = i+1 - st;
+                int m_len = m_end - m_st;
+                if(cur_len>m_len)
+                {
+                    m_st = st;
+                    m_end = i+1;
+                }
+            }
+        }
+        ArrayList<Integer> ans = new ArrayList<>();
+        for(int i=m_st; i<m_end; i++)
+        {
+            ans.add(a[i]);
+        }
+        if(ans.size()==0)
+            ans.add(-1);
+        return ans;
+    }
+}
