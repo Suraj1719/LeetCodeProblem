@@ -1,0 +1,55 @@
+Given an array of integers arr, return true if the number of occurrences of each value in the array is unique, or false otherwise.
+
+
+Constraints:
+
+   1 <= arr.length <= 1000
+   -1000 <= arr[i] <= 1000
+
+
+//approach-1(using hashmap and set)
+
+class Solution {
+    public boolean uniqueOccurrences(int[] arr) {
+        int n=arr.length;
+        Map<Integer,Integer> map=new HashMap<>();
+        for(int i=0;i<n;i++){
+            if(map.containsKey(arr[i]))
+                map.put(arr[i],map.get(arr[i])+1);
+            else
+                map.put(arr[i],1);
+        }
+        Set<Integer> set=new HashSet<>();
+        for(Map.Entry<Integer,Integer>entry:map.entrySet()){
+            int freq=entry.getValue();
+            if(set.contains(freq))
+                return false;
+            else
+                set.add(freq);
+        }
+        return true;
+    }
+}
+
+//approach-2(best approach : using array)
+class Solution {
+    public boolean uniqueOccurrences(int[] arr) {
+        int freq[]=new int[2001];
+        int n=arr.length;
+        Arrays.fill(freq,0);
+        for(int i=0;i<n;i++){
+            freq[arr[i]+1000]++;
+        }
+        Arrays.sort(freq);
+        for(int i=1;i<2001;i++){
+            if(freq[i]!=0 && freq[i]==freq[i-1])
+                return false;
+        }
+        return true;
+    }
+}
+
+
+
+
+
