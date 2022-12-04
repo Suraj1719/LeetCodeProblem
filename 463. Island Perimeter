@@ -1,0 +1,87 @@
+You are given row x col grid representing a map where grid[i][j] = 1 represents land and grid[i][j] = 0 represents water.
+
+Grid cells are connected horizontally/vertically (not diagonally). The grid is completely surrounded by water, and there is exactly one island (i.e., one or more connected land cells).
+
+The island doesn't have "lakes", meaning the water inside isn't connected to the water around the island. One cell is a square with side length 1. The grid is rectangular, width and height don't exceed 100. Determine the perimeter of the island.
+
+ 
+ 
+ approach(using dfs )
+ class Solution {
+    public int islandPerimeter(int[][] grid) {
+        for (int i = 0; i < grid.length; i++) {
+            for (int j = 0; j < grid[0].length; j++) {
+                if (grid[i][j] == 1) {
+                    return dfs(grid, i, j);
+                }
+            }
+        }
+        return -1;
+    }
+
+    private static int dfs (int[][] grid, int row, int col) {
+        if (row >= grid.length || col >= grid[0].length || row < 0 || col < 0 || grid[row][col] == 0) {
+            return 1;
+        }
+        if (grid[row][col] == -1) {
+            return 0;
+        }
+        grid[row][col] = -1;
+
+        return dfs(grid, row + 1, col) + dfs(grid, row, col + 1) + dfs(grid, row - 1, col) + dfs(grid, row, col - 1);
+    }
+}
+
+approach-2
+
+class Solution {
+    int x[]={1,-1,0,0};
+    int y[]={0,0,1,-1};
+    public int islandPerimeter(int[][] grid) {
+        int n=grid.length;
+        int m=grid[0].length;
+        int parameter_ans=0;
+        for(int i=0;i<n;i++){
+            for(int j=0;j<m;j++){
+                if(grid[i][j]==1){
+                    
+                    for(int k=0;k<4;k++){
+                        int nx=i+x[k];
+                        int ny=j+y[k];
+                        if(isValid(nx,ny,n,m) && grid[nx][ny]==1)
+                            continue;
+                        parameter_ans++;
+                        
+                    }
+                }
+            }
+        }
+        return parameter_ans;
+    }
+    boolean isValid(int nx,int ny,int row,int col){
+        if((nx>=0 && nx<row)&&(ny>=0 && ny<col))
+            return true;
+        return false;
+    }
+}
+
+approach-3(using some formula)
+
+
+public class Solution {
+    public int islandPerimeter(int[][] grid) {
+        int islands = 0, neighbours = 0;
+
+        for (int i = 0; i < grid.length; i++) {
+            for (int j = 0; j < grid[i].length; j++) {
+                if (grid[i][j] == 1) {
+                    islands++; // count islands
+if (i < grid.length - 1 && grid[i + 1][j] == 1) neighbours++; // count down neighbours
+if (j < grid[i].length - 1 && grid[i][j + 1] == 1) neighbours++; // count right neighbours
+                }
+            }
+        }
+
+        return islands * 4 - neighbours * 2;
+    }
+}
