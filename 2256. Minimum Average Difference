@@ -1,0 +1,136 @@
+You are given a 0-indexed integer array nums of length n.
+
+The average difference of the index i is the absolute difference between the average of the first i + 1 elements of nums and the average of the last n - i - 1 elements. Both averages should be rounded down to the nearest integer.
+
+Return the index with the minimum average difference. If there are multiple such indices, return the smallest one.
+
+Approach 1: Brute Force(time : - O(n^2))
+class Solution {
+    public int minimumAverageDifference(int[] nums) {
+        int n = nums.length;
+        int ans = -1;
+        int minAvgDiff = Integer.MAX_VALUE;
+        
+        for (int index = 0; index < n; ++index) {
+            // Calculate average of left part of array, index 0 to i.
+            long leftPartAverage = 0;
+            for (int i = 0; i <= index; ++i) {
+                leftPartAverage += nums[i];
+            }
+            leftPartAverage /= (index + 1);
+            
+            // Calculate average of right part of array, index i+1 to n-1.
+            long rightPartAverage = 0;
+            for (int j = index + 1; j < n; ++j) {
+                rightPartAverage += nums[j];
+            }
+            // If right part have 0 elements, then we don't divide by 0.
+            if (index != n - 1) {
+                rightPartAverage /= (n - index - 1);
+            }
+            
+            int currDifference = (int) Math.abs(leftPartAverage - rightPartAverage);
+            // If current difference of averages is smaller,
+            // then current index can be our answer.
+            if (currDifference < minAvgDiff) {
+                minAvgDiff = currDifference;
+                ans = index;
+            }
+        }
+        
+        return ans;
+    }
+}
+
+approach-2(Approach 2: Prefix Sum)
+Time complexity: O(n).
+Space complexity: O(n)
+
+class Solution {
+    public int minimumAverageDifference(int[] nums) {
+        int n = nums.length;
+        int ans = -1;
+        int minAvgDiff = Integer.MAX_VALUE;
+        
+        // Generate prefix and suffix sum arrays.
+        long[] prefixSum = new long[n + 1];
+        long[] suffixSum = new long[n + 1];
+        
+        for (int index = 0; index < n; ++index) {
+            prefixSum[index + 1] = prefixSum[index] + nums[index];
+        }
+        
+        for (int index = n - 1; index >= 0; --index) {
+            suffixSum[index] = suffixSum[index + 1] + nums[index];
+        }
+        
+        for (int index = 0; index < n; ++index) {
+            // Calculate average of left part of array, index 0 to i.
+            long leftPartAverage = prefixSum[index + 1];
+            leftPartAverage /= (index + 1);
+            
+            // Calculate average of right part of array, index i+1 to n-1.
+            long rightPartAverage = suffixSum[index + 1];
+            // If right part have 0 elements, then we don't divide by 0.
+            if (index != n - 1) {
+                rightPartAverage /= (n - index - 1);
+            }
+            
+            int currDifference = (int) Math.abs(leftPartAverage - rightPartAverage);
+            // If current difference of averages is smaller,
+            // then current index can be our answer.
+            if (currDifference < minAvgDiff) {
+                minAvgDiff = currDifference;
+                ans = index;
+            }
+        }
+        
+        return ans;
+    }
+}
+
+approach-3(Approach 3: Prefix Sum Optimized)
+
+Time complexity: O(n).
+Space complexity: O(1)
+
+
+class Solution {
+    public int minimumAverageDifference(int[] nums) {
+        int n = nums.length;
+        int ans = -1;
+        int minAvgDiff = Integer.MAX_VALUE;
+        long currPrefixSum = 0;
+        
+        // Get total sum of array.
+        long totalSum = 0;
+        for (int index = 0; index < n; ++index) {
+            totalSum += nums[index];
+        }
+        
+        for (int index = 0; index < n; ++index) {
+            currPrefixSum += nums[index];
+            
+            // Calculate average of left part of array, index 0 to i.
+            long leftPartAverage = currPrefixSum;
+            leftPartAverage /= (index + 1);
+            
+            // Calculate average of right part of array, index i+1 to n-1.
+            long rightPartAverage = totalSum - currPrefixSum;
+            // If right part have 0 elements, then we don't divide by 0.
+            if (index != n - 1) {
+                rightPartAverage /= (n - index - 1);
+            }
+            
+            int currDifference = (int) Math.abs(leftPartAverage - rightPartAverage);
+            // If current difference of averages is smaller,
+            // then current index can be our answer.
+            if (currDifference < minAvgDiff) {
+                minAvgDiff = currDifference;
+                ans = index;
+            }
+        }
+        
+        return ans;
+    }
+}
