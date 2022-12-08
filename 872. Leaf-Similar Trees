@@ -1,0 +1,53 @@
+Consider all the leaves of a binary tree, from left to right order, the values of those leaves form a leaf value sequence.
+
+Input: root1 = [3,5,1,6,2,9,8,null,null,7,4], root2 = [3,5,1,6,7,4,2,null,null,null,null,null,null,9,8]
+Output: true
+
+ex-2
+
+Input: root1 = [1,2,3], root2 = [1,3,2]
+Output: false
+
+//my code
+
+/**
+ * Definition for a binary tree node.
+ * public class TreeNode {
+ *     int val;
+ *     TreeNode left;
+ *     TreeNode right;
+ *     TreeNode() {}
+ *     TreeNode(int val) { this.val = val; }
+ *     TreeNode(int val, TreeNode left, TreeNode right) {
+ *         this.val = val;
+ *         this.left = left;
+ *         this.right = right;
+ *     }
+ * }
+ */
+class Solution {
+    public boolean leafSimilar(TreeNode root1, TreeNode root2) {
+        Queue<Integer> first=new LinkedList<>();
+        Queue<Integer> second=new LinkedList<>();
+
+        inorder(root1,first);
+        inorder(root2,second);
+        if(first.size()!=second.size())
+        return false;
+        while(first.size()>0 && second.size()>0){
+            if(first.remove()!=second.remove())
+            return false;
+        }
+        return true;
+    }
+    void inorder(TreeNode root,Queue<Integer> cur){//store the leaf node
+    if(root==null)
+    return;
+        if(root.left==null && root.right==null)
+        cur.add(root.val);
+
+        inorder(root.left,cur);
+        inorder(root.right,cur);
+
+   }
+}
