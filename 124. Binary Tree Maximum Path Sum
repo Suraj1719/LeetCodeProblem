@@ -1,0 +1,64 @@
+A path in a binary tree is a sequence of nodes where each pair of adjacent nodes in the sequence has an edge connecting them. A node can only appear in the sequence at most once. Note that the path does not need to pass through the root.
+
+The path sum of a path is the sum of the node's values in the path.
+
+Given the root of a binary tree, return the maximum path sum of any non-empty path.
+
+//Intution 
+
+//see ( interview ds algo )  yt chenal for explanation
+
+there are three case .
+
+case 1 : we got maximum sum from left+right+root.val  as we got a path we can not return for recursive call
+
+case 2 : as there are -ve value . If left sum and right sum return -ve value we do not consider them and only
+return root value for recursive call
+
+case 3 : we chose best path among left sum and right sum . After that we add root value and return to find the best path by recursive call
+
+//code
+/**
+ * Definition for a binary tree node.
+ * public class TreeNode {
+ *     int val;
+ *     TreeNode left;
+ *     TreeNode right;
+ *     TreeNode() {}
+ *     TreeNode(int val) { this.val = val; }
+ *     TreeNode(int val, TreeNode left, TreeNode right) {
+ *         this.val = val;
+ *         this.left = left;
+ *         this.right = right;
+ *     }
+ * }
+ */
+class Solution {
+    int maxSum;
+
+    int solve(TreeNode root){
+        if(root==null)
+        return 0;
+
+        int leftSum=solve(root.left);
+        int rightSum=solve(root.right);
+
+        int neeche_hi_leftandrightsum_best=leftSum+rightSum+root.val;
+
+        int koi_ek_acha=Math.max(leftSum,rightSum)+root.val;
+
+        int root_hi_acha=root.val;
+
+        maxSum=Math.max(maxSum,Math.max(neeche_hi_leftandrightsum_best,
+               Math.max(koi_ek_acha,root_hi_acha)));
+
+        return Math.max(koi_ek_acha,root_hi_acha);
+    }
+    public int maxPathSum(TreeNode root) {
+        maxSum=Integer.MIN_VALUE;
+
+        solve(root);
+        return maxSum;
+
+    }
+}
