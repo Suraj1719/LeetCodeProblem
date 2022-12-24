@@ -1,0 +1,97 @@
+//Google
+
+You have two types of tiles: a 2 x 1 domino shape and a tromino shape. You may rotate these shapes.
+
+
+Given an integer n, return the number of ways to tile an 2 x n board. Since the answer may be very large, return it modulo 109 + 7.
+
+In a tiling, every square must be covered by a tile. Two tilings are different if and only if there are two 4-directionally adjacent cells on the board such that exactly one of the tilings has both squares occupied by a tile.
+
+ 
+
+Example 1:
+Input: n = 3
+Output: 5
+
+Example 2:
+
+Input: n = 1
+Output: 1
+ 
+
+Constraints:
+
+1 <= n <= 1000
+
+
+//formula :
+f(n) = f(n-1)+f(n-2)+2*f(n-3)+2*f(n-4)+.......+2*f(0)
+f(n-1)=f(n-2)+f(n-3)+2*f(n-4)+.......+2*f(0)
+
+if we subtract first - second , we have
+f(n) - F(n-1) = f(n-1) + f(n-3)
+=> f(n) = 2* f(n-1) + f(n-3)    this is the working formula
+
+//approach -1 (using recursion)
+
+//gives TLE
+class Solution {
+    int mod=1000000007;
+    
+    int solve(int n){
+        if(n==1 || n==2)
+        return n;
+
+        if(n==3)
+        return 5;
+
+        return ((2*solve(n-1))%mod+solve(n-3)%mod)%mod;
+    }
+    public int numTilings(int n) {
+        return solve(n);
+    }
+}
+
+//approach -2(dp in recursion)
+
+class Solution {
+    int mod=1000000007;
+    
+    int solve(int n,int dp[]){
+        if(n==1 || n==2)
+        return n;
+
+        if(n==3)
+        return 5;
+
+        if(dp[n]!=-1)
+        return dp[n];
+
+        return dp[n]=((2*solve(n-1,dp))%mod+solve(n-3,dp)%mod)%mod;
+    }
+    public int numTilings(int n) {
+        int dp[]=new int[n+1];
+        Arrays.fill(dp,-1);
+        return solve(n,dp);
+    }
+}
+
+//approach -3 (bottom up )
+class Solution {
+    int mod=1000000007;
+    public int numTilings(int n) {
+        if(n==1 || n==2)
+        return n;
+        if(n==3)
+        return 5;
+        int ans[]=new int[n+1];
+        Arrays.fill(ans,0);
+        ans[1]=1;
+        ans[2]=2;
+        ans[3]=5;
+        for(int i=4;i<=n;i++){
+            ans[i]=((2*ans[i-1]%mod)+(ans[i-3]%mod))%mod;
+        }
+        return ans[n];
+    }
+}
