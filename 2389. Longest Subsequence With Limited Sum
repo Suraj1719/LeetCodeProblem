@@ -1,0 +1,107 @@
+You are given an integer array nums of length n, and an integer array queries of length m.
+
+Return an array answer of length m where answer[i] is the maximum size of a subsequence that you can take from nums such that the sum of its elements is less than or equal to queries[i].
+
+A subsequence is an array that can be derived from another array by deleting some or no elements without changing the order of the remaining elements.
+
+ 
+
+Example 1:
+
+Input: nums = [4,5,2,1], queries = [3,10,21]
+Output: [2,3,4]
+Explanation: We answer the queries as follows:
+- The subsequence [2,1] has a sum less than or equal to 3. It can be proven that 2 is the maximum size of such a subsequence, so answer[0] = 2.
+- The subsequence [4,5,1] has a sum less than or equal to 10. It can be proven that 3 is the maximum size of such a subsequence, so answer[1] = 3.
+- The subsequence [4,5,2,1] has a sum less than or equal to 21. It can be proven that 4 is the maximum size of such a subsequence, so answer[2] = 4.
+Example 2:
+
+Input: nums = [2,3,4,5], queries = [1]
+Output: [0]
+Explanation: The empty subsequence is the only subsequence that has a sum less than or equal to 1, so answer[0] = 0.
+ 
+
+Constraints:
+
+n == nums.length
+m == queries.length
+1 <= n, m <= 1000
+1 <= nums[i], queries[i] <= 106
+
+
+//brute force approach ( time : O(m*n)
+
+import java.util.*;
+public class leetcodeDaily {
+    static int ans[];
+    public static void main(String[] args) {
+        Scanner sc=new Scanner(System.in);
+        int nums[] = {2,3,4,5};
+        int []queries = {1};
+        ans=new int[queries.length];
+        ans=answerQueries(nums,queries);
+        for(int X:ans){
+            System.out.print(X+" ");
+        }
+        System.out.println();
+    }
+    public static int[] answerQueries(int[] nums, int[] queries) {
+        Arrays.sort(nums);//as we think greedily that always we take smalest available option for longest subsequence
+        for(int i=0;i<queries.length;i++) {
+            int cur_sum = 0;
+            for (int j = 0; j < nums.length; j++) {
+                if(j==nums.length-1 && cur_sum+nums[j]<queries[i]){
+                    ans[i]=nums.length;
+                    break;
+                }
+                if (cur_sum < queries[i]) {
+                    cur_sum += nums[j];
+                    if (cur_sum == queries[i]) {
+                        ans[i] = j + 1;
+                        break;
+                    } else if (cur_sum > queries[i]) {
+                        ans[i] = j;
+                        break;
+                    }
+                }
+            }
+
+        }
+        return ans;
+    }
+
+}
+
+//approach - 2(optimal : storing the cumulative sum array and binary search)
+class Solution {
+    int ans[];
+    public int[] answerQueries(int[] nums, int[] queries) {
+        ans=new int[queries.length];
+        Arrays.sort(nums);//as we think greedily that always we take smalest available option for longest subsequence
+        int cum_sum[]=new int[nums.length];
+        cum_sum[0]=nums[0];
+        for(int i=1;i<nums.length;i++){
+            cum_sum[i]=cum_sum[i-1]+nums[i];
+        }
+        for(int i=0;i<queries.length;i++){
+            ans[i]=BS(cum_sum,cum_sum.length,queries[i]);
+        }
+        return ans;
+    }
+    private static int BS(int[] cum_sum, int n, int k) {
+        int l=0;
+        int r=n-1;
+        int res_index=-1;
+        while(l<=r){
+            int mid=(l+r)/2;
+            if(cum_sum[mid]<=k){
+                res_index=mid;
+                l=mid+1;
+            }else{
+                r=mid-1;
+            }
+
+        }
+        return res_index+1;
+    }
+}
