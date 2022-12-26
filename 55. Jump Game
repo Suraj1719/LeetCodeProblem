@@ -1,0 +1,77 @@
+You are given an integer array nums. You are initially positioned at the array's first index, and each element in the array represents your maximum jump length at that position.
+
+Return true if you can reach the last index, or false otherwise.
+
+ 
+
+Example 1:
+
+Input: nums = [2,3,1,1,4]
+Output: true
+Explanation: Jump 1 step from index 0 to 1, then 3 steps to the last index.
+Example 2:
+
+Input: nums = [3,2,1,0,4]
+Output: false
+Explanation: You will always arrive at index 3 no matter what. Its maximum jump length is 0, which makes it impossible to reach the last index.
+ 
+
+Constraints:
+
+1 <= nums.length <= 104
+0 <= nums[i] <= 105
+
+//approach -1(backtrack and memoization)
+//time :O(n^k) exponential 
+    //after we use memoization and turn into (n)
+    
+    //code 
+    class Solution {
+    int dp[]=new int[10001];
+    int solve(int nums[],int n,int idx){
+        if(idx==n-1)
+        return 1;
+        //not necesary as it already hit
+        if(idx>=n)
+        return 1;
+        if(dp[idx]!=-1)
+        return dp[idx];
+        for(int i=1;i<=nums[idx];i++){
+            if(solve(nums,n,idx+i)==1)//check for all possible jump from a index
+            return dp[idx]=1;
+        }
+        return dp[idx]=0;
+    }
+    public boolean canJump(int[] nums) {
+        //approach - 1 (recursion and memoization)
+        Arrays.fill(dp,-1);
+        int n=nums.length;
+
+        return solve(nums,n,0)==1;
+    }
+}
+
+//approach -2(bottom up )
+class Solution {
+   
+    public boolean canJump(int[] nums) {
+        int n=nums.length;
+
+        //ans[i]=true : means i tak hum pahanch sakte hai
+        //ans[i]=false: hum i tak nehi pahanc sakte
+
+        //time complexity :O(n^2)
+        //space complexity : O(n)
+        boolean ans[]=new boolean[n];
+        ans[0]=true;
+        for(int i=1;i<n;i++){
+            for(int j=i-1;j>=0;j--){
+                if(ans[j]==true && nums[j]+j>=i){
+                    ans[i]=true;
+                    break;
+                }
+            }
+        }
+        return ans[n-1];
+    }
+}
