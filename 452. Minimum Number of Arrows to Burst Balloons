@@ -1,0 +1,36 @@
+Here we have to find overlap ballon so that we burst in one arrow .
+
+//my code
+
+//using priority Queue
+
+class Solution {
+    static int ans;
+    public int findMinArrowShots(int[][] points) {
+        PriorityQueue<int []> pq=new PriorityQueue<>(Comparator.comparing(a->a[0]));
+        for(int i=0;i< points.length;i++){
+            pq.add(points[i]);
+        }
+        ans=1;
+        int cur[]=pq.poll();
+        int start=cur[0];
+        int end=cur[1];
+        //System.out.println(start+" "+end);
+        while(pq.size()>0){
+            int temp[]=pq.poll();
+            if(temp[0]>end) {
+                start=temp[0];
+                end=temp[1];
+                ans++;
+            }
+            else{
+                start=Math.max(start,temp[0]);
+                end=Math.min(end,temp[1]);
+                //System.out.println(start+" "+end);
+            }
+
+        }
+
+        return ans;
+    }
+}
