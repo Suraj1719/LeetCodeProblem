@@ -1,0 +1,60 @@
+Company : Amazon ,Bloombarg , Microsoft
+
+
+//approach -1(brute force)
+//giving TLE
+//t.c : (n^2)
+class Solution {
+    public int canCompleteCircuit(int[] gas, int[] cost) {
+        int n=gas.length;
+
+        for(int i=0;i<n;i++){
+            
+            if(gas[i]>0 && gas[i]>=cost[i]){
+                int gas_f=gas[i]-cost[i];
+                if(Travel((i+1)%n,gas_f,i,gas,cost))
+                return i;
+            }
+
+        }
+        return -1;
+    }
+    boolean Travel(int start,int carry_gas,int end,int[] gas, int[] cost){
+        if(start==end)
+        return true;
+        if(gas[start]+carry_gas<cost[start])
+        return false;
+
+        carry_gas=gas[start]+carry_gas-cost[start];
+        start=(start+1)%gas.length;
+
+        return Travel(start,carry_gas,end,gas,cost);
+    }
+}
+
+//approach-2(optimised)
+class Solution {
+    public int canCompleteCircuit(int[] gas, int[] cost) {
+        long total_gas=0;
+        long total_cost=0;
+        int n=gas.length;
+        for(int i=0;i<n;i++){
+            total_gas+=gas[i];
+            total_cost+=cost[i];
+        }
+        if(total_gas<total_cost)
+        return -1;
+        long cur_gas=0;int start=0;
+
+        for(int i=0;i<n;i++){
+            cur_gas+=gas[i];
+            cur_gas-=cost[i];
+            if(cur_gas<0){
+            start=i+1;//as before ith gas station if we start we always short of gas
+            cur_gas=0;
+            }
+        }
+        //as given there is always a ans
+        return (int)start;
+    }
+}
