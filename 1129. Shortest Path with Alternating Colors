@@ -1,0 +1,55 @@
+import java.util.*;
+public class LC {
+    static Scanner sc=new Scanner(System.in);
+    public static void main(String[] args) {
+int n = 3, redEdges[][] = {{0,1},{1,2}}, blueEdges[][] = {};
+int res[]=shortestAlternatingPaths(n,redEdges,blueEdges);
+for(int x:res)
+    System.out.println(x);
+
+    }
+    public static int[] shortestAlternatingPaths(int n, int[][] redEdges, int[][] blueEdges) {
+        Map<Integer, List<List<Integer>>> adj = new HashMap<>();
+        for (int[] red : redEdges) {
+            adj.computeIfAbsent(red[0], k -> new ArrayList<>()).add(
+                    Arrays.asList(red[1], 0));//[dest , 0:as red color]
+        }
+
+        for (int[] blue : blueEdges) {
+            adj.computeIfAbsent(blue[0], k -> new ArrayList<>()).add(
+                    Arrays.asList(blue[1], 1));//[dest , 1 as blue ]
+        }
+
+        int[] ans = new int[n];
+        Arrays.fill(ans, -1);
+        boolean[][] visit = new boolean[n][2];//node , color
+        Queue<int[]> q = new LinkedList<>();
+
+        // Start with node 0, with number of steps as 0 and undefined color -1.
+        q.offer(new int[] { 0, 0, -1 });//node , length, previous edge color
+        ans[0] = 0;
+        visit[0][1] = visit[0][0] = true;
+
+        while (!q.isEmpty()) {
+            int[] cur = q.poll();
+            int node = cur[0], length = cur[1], prevColor = cur[2];
+
+            if (!adj.containsKey(node)) {
+                continue;
+            }
+//here we do not store minimum as which path visited first , then its corresponding length is going to minimum
+            for (List<Integer> nei : adj.get(node)) {
+                int neighbor = nei.get(0);
+                int color = nei.get(1);
+                if (!visit[neighbor][color] && color != prevColor) {
+                    if (ans[neighbor] == -1)
+                        ans[neighbor] = 1 + length;
+                    visit[neighbor][color] = true;
+                    q.offer(new int[] { neighbor, 1 + length, color });
+                }
+            }
+        }
+        return ans;
+    }
+
+}
