@@ -1,0 +1,74 @@
+Intuition : -
+To construct a binary tree from inorder and postorder traversal arrays, we first need to understand what each of these traversals represents.
+Inorder traversal visits the nodes in ascending order of their values, i.e., left child, parent, and right child. On the other hand, 
+postorder traversal visits the nodes in the order left child, right child, and parent.
+Knowing this, we can say that the last element in the postorder array is the root node, and its index in the inorder array divides 
+the tree into left and right subtrees. We can recursively apply this logic to construct the entire binary tree.
+
+Approach : -
+-> Start with the last element of the postorder array as the root node.
+-> Find the index of the root node in the inorder array.
+-> Divide the inorder array into left and right subtrees based on the index of the root node.
+-> Divide the postorder array into left and right subtrees based on the number of elements
+     in the left and right subtrees of the inorder array.
+-> Recursively construct the left and right subtrees.
+
+Complexity: -
+
+Time complexity:
+The time complexity of this algorithm is O(n), where n is the number of nodes in the tree. We visit each node only once.
+
+Space complexity:
+The space complexity of this algorithm is O(n). We create a hashmap to store the indices of the inorder traversal, which takes O(n) space. 
+Additionally, the recursive call stack can go up to O(n) in the worst case if the binary tree is skewed.
+
+//code
+
+/**
+ * Definition for a binary tree node.
+ * public class TreeNode {
+ *     int val;
+ *     TreeNode left;
+ *     TreeNode right;
+ *     TreeNode() {}
+ *     TreeNode(int val) { this.val = val; }
+ *     TreeNode(int val, TreeNode left, TreeNode right) {
+ *         this.val = val;
+ *         this.left = left;
+ *         this.right = right;
+ *     }
+ * }
+ */
+class Solution {
+    int post_order[];
+    int in_order[];
+    int post_ind;
+    Map<Integer,Integer>index=new HashMap<>();
+    public TreeNode buildTree(int[] inorder, int[] postorder) {
+        this.post_order=postorder;
+        this.in_order=inorder;
+        for(int i=0;i<inorder.length;i++){
+            index.put(inorder[i],i);
+        }
+        post_ind=postorder.length-1;//we take root element from last of post order
+        return helper(0,inorder.length-1);//left and right boudaries as parameter
+    }
+    TreeNode helper(int l,int r){
+        if(l>r)//no inorder element is present means there is no node
+        return null;
+
+        //pick the last element of postorder as root
+        int cur_root_val=post_order[post_ind];
+        TreeNode root=new TreeNode(cur_root_val);
+        //splits inorder traversal to left and right according to position of root in inorder
+        int ind=index.get(cur_root_val);
+        //recursive call for left and right sub tree of currunt node
+        post_ind--;
+        //right sub tree
+        root.right=helper(ind+1,r);
+        //right sub tree
+        root.left=helper(l,ind-1);
+
+        return root;
+    }
+}
