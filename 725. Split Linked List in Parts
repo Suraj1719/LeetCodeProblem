@@ -9,6 +9,8 @@ Return an array of the k parts
 Input: head = [1,2,3], k = 5
 Output: [[1],[2],[3],[],[]]
 
+YT solution : https://youtu.be/g0p8Um2QDdQ
+
 //code    time complexity : O(n)
 
 class Solution {
