@@ -1,22 +1,21 @@
 class Solution {
     public int eliminateMaximum(int[] dist, int[] speed) {
-        //Approach 1: Sorting By Arrival Time
-        double[] arrival = new double[dist.length];
+        //using min heap/priority queue
+        //time :O(n log n)  space :O(n)
+        PriorityQueue<Double> pq = new PriorityQueue();
         for (int i = 0; i < dist.length; i++) {
-            arrival[i] = (double) dist[i] / speed[i];
+            pq.add ((double) dist[i] / speed[i]);
         }
         
-        Arrays.sort(arrival);
-        int ans = 0;
-        
-        for (int i = 0; i < arrival.length; i++) {
-            if (arrival[i] <= i) {
+        int killed_mionster = 0;
+        while (!pq.isEmpty()) {
+            if (pq.remove() <= killed_mionster) {
                 break;
             }
             
-            ans++;
+            killed_mionster++;
         }
         
-        return ans;
+        return killed_mionster;
     }
 }
