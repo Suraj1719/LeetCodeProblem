@@ -1,21 +1,21 @@
 class Solution {
     public int eliminateMaximum(int[] dist, int[] speed) {
-
-        double[] a = new double[dist.length];//time of monsters to reach the city
+        //we can use min heap
+        //time :O(n)*O(log n)  space :O(n)
+        PriorityQueue<Double> pq = new PriorityQueue();
         for (int i = 0; i < dist.length; i++) {
-            a[i] = (double) dist[i] / speed[i];
+            pq.add ((double) dist[i] / speed[i]);
         }
         
-        Arrays.sort(a);
-        int kill_mon = 0;
-        
-        for (int i = 0; i < a.length; i++) {
-            if (a[i] <= i) {
+        int killed_mionster = 0;//this work as time 
+        while (!pq.isEmpty()) {
+            if (pq.remove() <= killed_mionster) {
                 break;
             }
             
-            kill_mon++;
+            killed_mionster++;
         }
-        return kill_mon;
+        
+        return killed_mionster;
     }
 }
