@@ -1,33 +1,32 @@
 class Solution {
     public int getWinner(int[] arr, int k) {
-        int num=-1;
-        int n=arr.length;
-
-        if(k<n){
-            int cur_num=Math.max(arr[0],arr[1]);
-            int cur_win_strek=1;
+        int maxElement = arr[0];
+        Queue<Integer> queue = new LinkedList();
+        for (int i = 1; i < arr.length; i++) {
+            maxElement = Math.max(maxElement, arr[i]);
+            queue.offer(arr[i]);
+        }
         
-            for(int i=2;i<n;i++){
-
-                if(cur_win_strek==k){
-                num=cur_num;
-                break;
-                }
-
-            if(arr[i]>cur_num){
-                cur_num=arr[i];
-                cur_win_strek=0;
-            }
-            cur_win_strek++;
+        int curr = arr[0];
+        int winstreak = 0;
+        
+        while (!queue.isEmpty()) {
+            int opponent = queue.poll();
             
+            if (curr > opponent) {
+                queue.offer(opponent);
+                winstreak++;
+            } else {
+                queue.offer(curr);
+                curr = opponent;
+                winstreak = 1;
+            }
+            
+            if (winstreak == k || curr == maxElement) {
+                return curr;
             }
         }
-
-
-        if(num==-1){
-Arrays.sort(arr);
-            num=arr[n-1];
-        }
-    return num;
+        
+        return -1;
     }
 }
