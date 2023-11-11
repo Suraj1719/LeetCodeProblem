@@ -1,5 +1,6 @@
 class Graph {
-    //time :O(Q)*O(n log m)
+    //Dijkstra's Algorithm
+    //time :O(M)*O(v+ E log v)
     Map<Integer, List<Node>> adj;
     int N;
     int[] result;
