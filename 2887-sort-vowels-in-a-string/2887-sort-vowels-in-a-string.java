@@ -1,37 +1,37 @@
 class Solution {
+    // Returns true if the character is a vowel.
+    boolean isVowel(Character c) {
+        return c == 'a' || c == 'e' || c == 'o'|| c == 'u'|| c == 'i' 
+            || c == 'A' || c == 'E' || c == 'O'|| c == 'U'|| c == 'I';
+    }
+    
     public String sortVowels(String s) {
-        int n=s.length();
-        char t[]=new char[n];
-        PriorityQueue<Integer>v_cap=new PriorityQueue<>();
-        PriorityQueue<Integer>v_small=new PriorityQueue<>();
-        for(int i=0;i<n;i++){
-            char ch=s.charAt(i);
-            if(ch!='A' && ch!='E' && ch!='I' && ch!='O' && ch!='U' && ch!='a' && ch!='e' && ch!='i' && ch!='o' && ch!='u')
-                t[i]=ch;
-            else{
-                t[i]='.';
-                if(ch=='A' || ch=='E' || ch=='I' || ch=='O' || ch=='U')
-                v_cap.add(ch-'A');
-                else
-                   v_small.add(ch-'a'); 
+        //time :O(n log n)
+        //space :O(n)
+         ArrayList<Character> temp = new ArrayList<>();
+
+        // Store the vowels in the temporary string.
+        for (char c : s.toCharArray()) {
+            if (isVowel(c)) {
+                temp.add(c);
             }
         }
-        for(int i=0;i<n;i++){
-            if(t[i]=='.'){
-                if(v_cap.isEmpty()){
-                    int x=v_small.peek();
-                    v_small.poll();
-                    t[i]=(char)(x+'a');
-                }else{
-                    int x=v_cap.peek();
-                    v_cap.poll();
-                    t[i]=(char)(x+'A');
-                }
+        
+        // Sort the temporary string characters in ascending order.
+        Collections.sort(temp);
+
+        StringBuilder ans = new StringBuilder();
+        int j = 0;
+        for (int i = 0; i < s.length(); i++) {
+            // If the character is a vowel, replace it with the character in the string temp.
+            if (isVowel(s.charAt(i))) {
+                ans.append(temp.get(j));
+                j++;
+            } else {
+                ans.append(s.charAt(i));
             }
         }
-        StringBuilder ans=new StringBuilder();
-        for(int i=0;i<n;i++)
-            ans.append(t[i]);
+        
         return ans.toString();
     }
-}
+};
