@@ -1,6 +1,7 @@
 class Solution {
     public int numBusesToDestination(int[][] routes, int source, int target) {
-
+//Approach 1: Breadth-First Search (BFS) with Bus Stops as Nodes
+//time :O(m^2  * k)  space:O(m*k)
         if (source == target) {
             return 0;
         }
@@ -17,7 +18,7 @@ class Solution {
 
         Queue<Integer> q = new LinkedList<>();
         boolean[] visited = new boolean[501];
-        
+
         // Insert all the routes in the queue that have the source stop.
         for (int route : adj.getOrDefault(source, Collections.emptyList())) {
             q.add(route);
