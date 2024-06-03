@@ -1,6 +1,6 @@
 class Solution {
     public int appendCharacters(String s, String t) {
-        //brute force : O(n*m)
+        //optimize1 : O(max of (n,m))
         int n=s.length();
         int m=t.length();
         
