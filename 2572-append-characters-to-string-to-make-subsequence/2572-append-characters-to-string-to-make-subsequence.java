@@ -1,19 +1,19 @@
 class Solution {
     public int appendCharacters(String s, String t) {
-        //optimize1 : O(max of (n,m))
-        int n=s.length();
-        int m=t.length();
-        
-        return help(0,m,0,n,s,t);
-    }
-    int help(int i,int m,int j,int n,String s,String t){
-        if(i>=m)return 0;
+       //Greedy (Two Pointers) O(n)  O(1)
+       int first = 0, longestPrefix = 0;
 
-        if(j>=n)return (m-i);
+        while (first < s.length() && longestPrefix < t.length()) {
+            if (s.charAt(first) == t.charAt(longestPrefix)) {
+                // Since at the current position both the characters are equal,
+                // increment longestPrefix by 1
+                longestPrefix++;
+            }
+            first++;
+        }
 
-        char ch1=t.charAt(i);
-        char ch2=s.charAt(j);
-        int ans=0;
-        return (ch1==ch2)?help(i+1,m,j+1,n,s,t):help(i,m,j+1,n,s,t);
+        // The number of characters appended is given by the difference in
+        // length of t and longestPrefix
+        return t.length() - longestPrefix;
     }
 }
