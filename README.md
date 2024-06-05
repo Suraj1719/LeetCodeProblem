@@ -23,7 +23,21 @@ Keep learning and Growing .
 |  |
 | ------- |
 | [1044-find-common-characters](https://github.com/Suraj1719/LeetCodeProblem/tree/master/1044-find-common-characters) |
+| [1553-count-triplets-that-can-form-two-arrays-of-equal-xor](https://github.com/Suraj1719/LeetCodeProblem/tree/master/1553-count-triplets-that-can-form-two-arrays-of-equal-xor) |
 # Hash Table
 |  |
 | ------- |
 | [1044-find-common-characters](https://github.com/Suraj1719/LeetCodeProblem/tree/master/1044-find-common-characters) |
+| [1553-count-triplets-that-can-form-two-arrays-of-equal-xor](https://github.com/Suraj1719/LeetCodeProblem/tree/master/1553-count-triplets-that-can-form-two-arrays-of-equal-xor) |
+# Math
+|  |
+| ------- |
+| [1553-count-triplets-that-can-form-two-arrays-of-equal-xor](https://github.com/Suraj1719/LeetCodeProblem/tree/master/1553-count-triplets-that-can-form-two-arrays-of-equal-xor) |
+# Bit Manipulation
+|  |
+| ------- |
+| [1553-count-triplets-that-can-form-two-arrays-of-equal-xor](https://github.com/Suraj1719/LeetCodeProblem/tree/master/1553-count-triplets-that-can-form-two-arrays-of-equal-xor) |
+# Prefix Sum
+|  |
+| ------- |
+| [1553-count-triplets-that-can-form-two-arrays-of-equal-xor](https://github.com/Suraj1719/LeetCodeProblem/tree/master/1553-count-triplets-that-can-form-two-arrays-of-equal-xor) |
