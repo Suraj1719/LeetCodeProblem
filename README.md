@@ -13,8 +13,17 @@ Keep learning and Growing .
 # String
 |  |
 | ------- |
+| [1044-find-common-characters](https://github.com/Suraj1719/LeetCodeProblem/tree/master/1044-find-common-characters) |
 | [2572-append-characters-to-string-to-make-subsequence](https://github.com/Suraj1719/LeetCodeProblem/tree/master/2572-append-characters-to-string-to-make-subsequence) |
 # Greedy
 |  |
 | ------- |
 | [2572-append-characters-to-string-to-make-subsequence](https://github.com/Suraj1719/LeetCodeProblem/tree/master/2572-append-characters-to-string-to-make-subsequence) |
+# Array
+|  |
+| ------- |
+| [1044-find-common-characters](https://github.com/Suraj1719/LeetCodeProblem/tree/master/1044-find-common-characters) |
+# Hash Table
+|  |
+| ------- |
+| [1044-find-common-characters](https://github.com/Suraj1719/LeetCodeProblem/tree/master/1044-find-common-characters) |
