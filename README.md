@@ -30,6 +30,7 @@ Keep learning and Growing .
 | [1044-find-common-characters](https://github.com/Suraj1719/LeetCodeProblem/tree/master/1044-find-common-characters) |
 | [1422-divide-array-in-sets-of-k-consecutive-numbers](https://github.com/Suraj1719/LeetCodeProblem/tree/master/1422-divide-array-in-sets-of-k-consecutive-numbers) |
 | [1553-count-triplets-that-can-form-two-arrays-of-equal-xor](https://github.com/Suraj1719/LeetCodeProblem/tree/master/1553-count-triplets-that-can-form-two-arrays-of-equal-xor) |
+| [1631-number-of-sub-arrays-with-odd-sum](https://github.com/Suraj1719/LeetCodeProblem/tree/master/1631-number-of-sub-arrays-with-odd-sum) |
 # Hash Table
 |  |
 | ------- |
@@ -42,6 +43,7 @@ Keep learning and Growing .
 |  |
 | ------- |
 | [1553-count-triplets-that-can-form-two-arrays-of-equal-xor](https://github.com/Suraj1719/LeetCodeProblem/tree/master/1553-count-triplets-that-can-form-two-arrays-of-equal-xor) |
+| [1631-number-of-sub-arrays-with-odd-sum](https://github.com/Suraj1719/LeetCodeProblem/tree/master/1631-number-of-sub-arrays-with-odd-sum) |
 # Bit Manipulation
 |  |
 | ------- |
@@ -50,6 +52,7 @@ Keep learning and Growing .
 |  |
 | ------- |
 | [1553-count-triplets-that-can-form-two-arrays-of-equal-xor](https://github.com/Suraj1719/LeetCodeProblem/tree/master/1553-count-triplets-that-can-form-two-arrays-of-equal-xor) |
+| [1631-number-of-sub-arrays-with-odd-sum](https://github.com/Suraj1719/LeetCodeProblem/tree/master/1631-number-of-sub-arrays-with-odd-sum) |
 # Sorting
 |  |
 | ------- |
@@ -59,3 +62,7 @@ Keep learning and Growing .
 |  |
 | ------- |
 | [0648-replace-words](https://github.com/Suraj1719/LeetCodeProblem/tree/master/0648-replace-words) |
+# Dynamic Programming
+|  |
+| ------- |
+| [1631-number-of-sub-arrays-with-odd-sum](https://github.com/Suraj1719/LeetCodeProblem/tree/master/1631-number-of-sub-arrays-with-odd-sum) |
