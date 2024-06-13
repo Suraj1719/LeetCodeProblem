@@ -22,6 +22,7 @@ Keep learning and Growing .
 | ------- |
 | [0876-hand-of-straights](https://github.com/Suraj1719/LeetCodeProblem/tree/master/0876-hand-of-straights) |
 | [1422-divide-array-in-sets-of-k-consecutive-numbers](https://github.com/Suraj1719/LeetCodeProblem/tree/master/1422-divide-array-in-sets-of-k-consecutive-numbers) |
+| [2148-minimum-number-of-moves-to-seat-everyone](https://github.com/Suraj1719/LeetCodeProblem/tree/master/2148-minimum-number-of-moves-to-seat-everyone) |
 | [2572-append-characters-to-string-to-make-subsequence](https://github.com/Suraj1719/LeetCodeProblem/tree/master/2572-append-characters-to-string-to-make-subsequence) |
 # Array
 |  |
@@ -34,6 +35,7 @@ Keep learning and Growing .
 | [1422-divide-array-in-sets-of-k-consecutive-numbers](https://github.com/Suraj1719/LeetCodeProblem/tree/master/1422-divide-array-in-sets-of-k-consecutive-numbers) |
 | [1553-count-triplets-that-can-form-two-arrays-of-equal-xor](https://github.com/Suraj1719/LeetCodeProblem/tree/master/1553-count-triplets-that-can-form-two-arrays-of-equal-xor) |
 | [1631-number-of-sub-arrays-with-odd-sum](https://github.com/Suraj1719/LeetCodeProblem/tree/master/1631-number-of-sub-arrays-with-odd-sum) |
+| [2148-minimum-number-of-moves-to-seat-everyone](https://github.com/Suraj1719/LeetCodeProblem/tree/master/2148-minimum-number-of-moves-to-seat-everyone) |
 # Hash Table
 |  |
 | ------- |
@@ -64,6 +66,7 @@ Keep learning and Growing .
 | [0876-hand-of-straights](https://github.com/Suraj1719/LeetCodeProblem/tree/master/0876-hand-of-straights) |
 | [1217-relative-sort-array](https://github.com/Suraj1719/LeetCodeProblem/tree/master/1217-relative-sort-array) |
 | [1422-divide-array-in-sets-of-k-consecutive-numbers](https://github.com/Suraj1719/LeetCodeProblem/tree/master/1422-divide-array-in-sets-of-k-consecutive-numbers) |
+| [2148-minimum-number-of-moves-to-seat-everyone](https://github.com/Suraj1719/LeetCodeProblem/tree/master/2148-minimum-number-of-moves-to-seat-everyone) |
 # Trie
 |  |
 | ------- |
