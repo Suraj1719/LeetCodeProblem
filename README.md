@@ -10,6 +10,7 @@ Keep learning and Growing .
 |  |
 | ------- |
 | [0075-sort-colors](https://github.com/Suraj1719/LeetCodeProblem/tree/master/0075-sort-colors) |
+| [0853-most-profit-assigning-work](https://github.com/Suraj1719/LeetCodeProblem/tree/master/0853-most-profit-assigning-work) |
 | [2572-append-characters-to-string-to-make-subsequence](https://github.com/Suraj1719/LeetCodeProblem/tree/master/2572-append-characters-to-string-to-make-subsequence) |
 # String
 |  |
@@ -21,6 +22,7 @@ Keep learning and Growing .
 |  |
 | ------- |
 | [0330-patching-array](https://github.com/Suraj1719/LeetCodeProblem/tree/master/0330-patching-array) |
+| [0853-most-profit-assigning-work](https://github.com/Suraj1719/LeetCodeProblem/tree/master/0853-most-profit-assigning-work) |
 | [0876-hand-of-straights](https://github.com/Suraj1719/LeetCodeProblem/tree/master/0876-hand-of-straights) |
 | [0982-minimum-increment-to-make-array-unique](https://github.com/Suraj1719/LeetCodeProblem/tree/master/0982-minimum-increment-to-make-array-unique) |
 | [1422-divide-array-in-sets-of-k-consecutive-numbers](https://github.com/Suraj1719/LeetCodeProblem/tree/master/1422-divide-array-in-sets-of-k-consecutive-numbers) |
@@ -32,6 +34,7 @@ Keep learning and Growing .
 | [0075-sort-colors](https://github.com/Suraj1719/LeetCodeProblem/tree/master/0075-sort-colors) |
 | [0330-patching-array](https://github.com/Suraj1719/LeetCodeProblem/tree/master/0330-patching-array) |
 | [0648-replace-words](https://github.com/Suraj1719/LeetCodeProblem/tree/master/0648-replace-words) |
+| [0853-most-profit-assigning-work](https://github.com/Suraj1719/LeetCodeProblem/tree/master/0853-most-profit-assigning-work) |
 | [0876-hand-of-straights](https://github.com/Suraj1719/LeetCodeProblem/tree/master/0876-hand-of-straights) |
 | [0982-minimum-increment-to-make-array-unique](https://github.com/Suraj1719/LeetCodeProblem/tree/master/0982-minimum-increment-to-make-array-unique) |
 | [1044-find-common-characters](https://github.com/Suraj1719/LeetCodeProblem/tree/master/1044-find-common-characters) |
@@ -67,6 +70,7 @@ Keep learning and Growing .
 |  |
 | ------- |
 | [0075-sort-colors](https://github.com/Suraj1719/LeetCodeProblem/tree/master/0075-sort-colors) |
+| [0853-most-profit-assigning-work](https://github.com/Suraj1719/LeetCodeProblem/tree/master/0853-most-profit-assigning-work) |
 | [0876-hand-of-straights](https://github.com/Suraj1719/LeetCodeProblem/tree/master/0876-hand-of-straights) |
 | [0982-minimum-increment-to-make-array-unique](https://github.com/Suraj1719/LeetCodeProblem/tree/master/0982-minimum-increment-to-make-array-unique) |
 | [1217-relative-sort-array](https://github.com/Suraj1719/LeetCodeProblem/tree/master/1217-relative-sort-array) |
@@ -97,3 +101,7 @@ Keep learning and Growing .
 |  |
 | ------- |
 | [0103-binary-tree-zigzag-level-order-traversal](https://github.com/Suraj1719/LeetCodeProblem/tree/master/0103-binary-tree-zigzag-level-order-traversal) |
+# Binary Search
+|  |
+| ------- |
+| [0853-most-profit-assigning-work](https://github.com/Suraj1719/LeetCodeProblem/tree/master/0853-most-profit-assigning-work) |
