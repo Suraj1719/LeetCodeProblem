@@ -1,29 +1,30 @@
 class Solution {
+//Approach 2: Using Heap and priority queue
     public int minimumPushes(String word) {
-        int frq[]=new int[26];
-        int len=word.length();
-        for(int i=0;i<len;i++){
-            char ch=word.charAt(i);
-            frq[ch-'a']++;
+        //time :O(n)  space:O(1)
+        // Frequency map to store count of each letter
+        Map<Character, Integer> frequencyMap = new HashMap<>();
+
+        // Count occurrences of each letter
+        for (char c : word.toCharArray()) {
+            frequencyMap.put(c, frequencyMap.getOrDefault(c, 0) + 1);
         }
-        Arrays.sort(frq);
-        int cur_pos=0;
-        int ans=0;
-        for(int i=25;i>=0;i--){
-            if(frq[i]==0)break;
-            else{
-            cur_pos++;
-            if(cur_pos<=8){
-                ans+=frq[i];
-            }else if(cur_pos>8 && cur_pos<=16){
-                ans+=2*frq[i];
-            }else if(cur_pos>16 && cur_pos<=24){
-                ans+=3*frq[i];
-            }else{
-                ans+=4*frq[i];
-            }
-            }
+
+        // Priority queue to store frequencies in descending order
+        PriorityQueue<Integer> frequencyQueue = new PriorityQueue<>(
+            (a, b) -> b - a
+        );
+        frequencyQueue.addAll(frequencyMap.values());
+
+        int totalPushes = 0;
+        int index = 0;
+
+        // Calculate total number of presses
+        while (!frequencyQueue.isEmpty()) {
+            totalPushes += (index / 8 + 1) * frequencyQueue.poll();
+            index++;
         }
-        return ans;
+
+        return totalPushes;
     }
 }
