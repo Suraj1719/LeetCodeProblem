@@ -127,4 +127,12 @@ Keep learning and Growing .
 |  |
 | ------- |
 | [3276-minimum-number-of-pushes-to-type-word-ii](https://github.com/Suraj1719/LeetCodeProblem/tree/master/3276-minimum-number-of-pushes-to-type-word-ii) |
+## Array
+|  |
+| ------- |
+| [0040-combination-sum-ii](https://github.com/Suraj1719/LeetCodeProblem/tree/master/0040-combination-sum-ii) |
+## Backtracking
+|  |
+| ------- |
+| [0040-combination-sum-ii](https://github.com/Suraj1719/LeetCodeProblem/tree/master/0040-combination-sum-ii) |
 <!---LeetCode Topics End-->
