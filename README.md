@@ -132,9 +132,18 @@ Keep learning and Growing .
 | ------- |
 | [0039-combination-sum](https://github.com/Suraj1719/LeetCodeProblem/tree/master/0039-combination-sum) |
 | [0040-combination-sum-ii](https://github.com/Suraj1719/LeetCodeProblem/tree/master/0040-combination-sum-ii) |
+| [2132-convert-1d-array-into-2d-array](https://github.com/Suraj1719/LeetCodeProblem/tree/master/2132-convert-1d-array-into-2d-array) |
 ## Backtracking
 |  |
 | ------- |
 | [0039-combination-sum](https://github.com/Suraj1719/LeetCodeProblem/tree/master/0039-combination-sum) |
 | [0040-combination-sum-ii](https://github.com/Suraj1719/LeetCodeProblem/tree/master/0040-combination-sum-ii) |
+## Matrix
+|  |
+| ------- |
+| [2132-convert-1d-array-into-2d-array](https://github.com/Suraj1719/LeetCodeProblem/tree/master/2132-convert-1d-array-into-2d-array) |
+## Simulation
+|  |
+| ------- |
+| [2132-convert-1d-array-into-2d-array](https://github.com/Suraj1719/LeetCodeProblem/tree/master/2132-convert-1d-array-into-2d-array) |
 <!---LeetCode Topics End-->
