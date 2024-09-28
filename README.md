@@ -123,6 +123,7 @@ Keep learning and Growing .
 ## Sorting
 |  |
 | ------- |
+| [0088-merge-sorted-array](https://github.com/Suraj1719/LeetCodeProblem/tree/master/0088-merge-sorted-array) |
 | [3276-minimum-number-of-pushes-to-type-word-ii](https://github.com/Suraj1719/LeetCodeProblem/tree/master/3276-minimum-number-of-pushes-to-type-word-ii) |
 ## Counting
 |  |
@@ -133,6 +134,7 @@ Keep learning and Growing .
 | ------- |
 | [0039-combination-sum](https://github.com/Suraj1719/LeetCodeProblem/tree/master/0039-combination-sum) |
 | [0040-combination-sum-ii](https://github.com/Suraj1719/LeetCodeProblem/tree/master/0040-combination-sum-ii) |
+| [0088-merge-sorted-array](https://github.com/Suraj1719/LeetCodeProblem/tree/master/0088-merge-sorted-array) |
 | [0906-walking-robot-simulation](https://github.com/Suraj1719/LeetCodeProblem/tree/master/0906-walking-robot-simulation) |
 | [1435-xor-queries-of-a-subarray](https://github.com/Suraj1719/LeetCodeProblem/tree/master/1435-xor-queries-of-a-subarray) |
 | [2006-find-the-student-that-will-replace-the-chalk](https://github.com/Suraj1719/LeetCodeProblem/tree/master/2006-find-the-student-that-will-replace-the-chalk) |
@@ -171,4 +173,8 @@ Keep learning and Growing .
 |  |
 | ------- |
 | [2503-longest-subarray-with-maximum-bitwise-and](https://github.com/Suraj1719/LeetCodeProblem/tree/master/2503-longest-subarray-with-maximum-bitwise-and) |
+## Two Pointers
+|  |
+| ------- |
+| [0088-merge-sorted-array](https://github.com/Suraj1719/LeetCodeProblem/tree/master/0088-merge-sorted-array) |
 <!---LeetCode Topics End-->
