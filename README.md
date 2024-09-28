@@ -119,6 +119,7 @@ Keep learning and Growing .
 ## Greedy
 |  |
 | ------- |
+| [0055-jump-game](https://github.com/Suraj1719/LeetCodeProblem/tree/master/0055-jump-game) |
 | [3276-minimum-number-of-pushes-to-type-word-ii](https://github.com/Suraj1719/LeetCodeProblem/tree/master/3276-minimum-number-of-pushes-to-type-word-ii) |
 ## Sorting
 |  |
@@ -134,6 +135,7 @@ Keep learning and Growing .
 | ------- |
 | [0039-combination-sum](https://github.com/Suraj1719/LeetCodeProblem/tree/master/0039-combination-sum) |
 | [0040-combination-sum-ii](https://github.com/Suraj1719/LeetCodeProblem/tree/master/0040-combination-sum-ii) |
+| [0055-jump-game](https://github.com/Suraj1719/LeetCodeProblem/tree/master/0055-jump-game) |
 | [0080-remove-duplicates-from-sorted-array-ii](https://github.com/Suraj1719/LeetCodeProblem/tree/master/0080-remove-duplicates-from-sorted-array-ii) |
 | [0088-merge-sorted-array](https://github.com/Suraj1719/LeetCodeProblem/tree/master/0088-merge-sorted-array) |
 | [0906-walking-robot-simulation](https://github.com/Suraj1719/LeetCodeProblem/tree/master/0906-walking-robot-simulation) |
@@ -179,4 +181,8 @@ Keep learning and Growing .
 | ------- |
 | [0080-remove-duplicates-from-sorted-array-ii](https://github.com/Suraj1719/LeetCodeProblem/tree/master/0080-remove-duplicates-from-sorted-array-ii) |
 | [0088-merge-sorted-array](https://github.com/Suraj1719/LeetCodeProblem/tree/master/0088-merge-sorted-array) |
+## Dynamic Programming
+|  |
+| ------- |
+| [0055-jump-game](https://github.com/Suraj1719/LeetCodeProblem/tree/master/0055-jump-game) |
 <!---LeetCode Topics End-->
