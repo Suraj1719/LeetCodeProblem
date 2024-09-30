@@ -141,6 +141,7 @@ Keep learning and Growing .
 | [0055-jump-game](https://github.com/Suraj1719/LeetCodeProblem/tree/master/0055-jump-game) |
 | [0080-remove-duplicates-from-sorted-array-ii](https://github.com/Suraj1719/LeetCodeProblem/tree/master/0080-remove-duplicates-from-sorted-array-ii) |
 | [0088-merge-sorted-array](https://github.com/Suraj1719/LeetCodeProblem/tree/master/0088-merge-sorted-array) |
+| [0238-product-of-array-except-self](https://github.com/Suraj1719/LeetCodeProblem/tree/master/0238-product-of-array-except-self) |
 | [0274-h-index](https://github.com/Suraj1719/LeetCodeProblem/tree/master/0274-h-index) |
 | [0906-walking-robot-simulation](https://github.com/Suraj1719/LeetCodeProblem/tree/master/0906-walking-robot-simulation) |
 | [1435-xor-queries-of-a-subarray](https://github.com/Suraj1719/LeetCodeProblem/tree/master/1435-xor-queries-of-a-subarray) |
@@ -169,6 +170,7 @@ Keep learning and Growing .
 ## Prefix Sum
 |  |
 | ------- |
+| [0238-product-of-array-except-self](https://github.com/Suraj1719/LeetCodeProblem/tree/master/0238-product-of-array-except-self) |
 | [1435-xor-queries-of-a-subarray](https://github.com/Suraj1719/LeetCodeProblem/tree/master/1435-xor-queries-of-a-subarray) |
 | [2006-find-the-student-that-will-replace-the-chalk](https://github.com/Suraj1719/LeetCodeProblem/tree/master/2006-find-the-student-that-will-replace-the-chalk) |
 ## Bit Manipulation
