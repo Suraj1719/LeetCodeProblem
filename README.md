@@ -115,6 +115,7 @@ Keep learning and Growing .
 ## String
 |  |
 | ------- |
+| [0539-minimum-time-difference](https://github.com/Suraj1719/LeetCodeProblem/tree/master/0539-minimum-time-difference) |
 | [2095-minimum-number-of-swaps-to-make-the-string-balanced](https://github.com/Suraj1719/LeetCodeProblem/tree/master/2095-minimum-number-of-swaps-to-make-the-string-balanced) |
 | [3276-minimum-number-of-pushes-to-type-word-ii](https://github.com/Suraj1719/LeetCodeProblem/tree/master/3276-minimum-number-of-pushes-to-type-word-ii) |
 ## Greedy
@@ -131,6 +132,7 @@ Keep learning and Growing .
 | ------- |
 | [0088-merge-sorted-array](https://github.com/Suraj1719/LeetCodeProblem/tree/master/0088-merge-sorted-array) |
 | [0274-h-index](https://github.com/Suraj1719/LeetCodeProblem/tree/master/0274-h-index) |
+| [0539-minimum-time-difference](https://github.com/Suraj1719/LeetCodeProblem/tree/master/0539-minimum-time-difference) |
 | [2646-kth-largest-sum-in-a-binary-tree](https://github.com/Suraj1719/LeetCodeProblem/tree/master/2646-kth-largest-sum-in-a-binary-tree) |
 | [3276-minimum-number-of-pushes-to-type-word-ii](https://github.com/Suraj1719/LeetCodeProblem/tree/master/3276-minimum-number-of-pushes-to-type-word-ii) |
 ## Counting
@@ -149,6 +151,7 @@ Keep learning and Growing .
 | [0134-gas-station](https://github.com/Suraj1719/LeetCodeProblem/tree/master/0134-gas-station) |
 | [0238-product-of-array-except-self](https://github.com/Suraj1719/LeetCodeProblem/tree/master/0238-product-of-array-except-self) |
 | [0274-h-index](https://github.com/Suraj1719/LeetCodeProblem/tree/master/0274-h-index) |
+| [0539-minimum-time-difference](https://github.com/Suraj1719/LeetCodeProblem/tree/master/0539-minimum-time-difference) |
 | [0906-walking-robot-simulation](https://github.com/Suraj1719/LeetCodeProblem/tree/master/0906-walking-robot-simulation) |
 | [1346-maximize-the-topmost-element-after-k-moves](https://github.com/Suraj1719/LeetCodeProblem/tree/master/1346-maximize-the-topmost-element-after-k-moves) |
 | [1435-xor-queries-of-a-subarray](https://github.com/Suraj1719/LeetCodeProblem/tree/master/1435-xor-queries-of-a-subarray) |
@@ -220,4 +223,8 @@ Keep learning and Growing .
 |  |
 | ------- |
 | [2646-kth-largest-sum-in-a-binary-tree](https://github.com/Suraj1719/LeetCodeProblem/tree/master/2646-kth-largest-sum-in-a-binary-tree) |
+## Math
+|  |
+| ------- |
+| [0539-minimum-time-difference](https://github.com/Suraj1719/LeetCodeProblem/tree/master/0539-minimum-time-difference) |
 <!---LeetCode Topics End-->
