@@ -111,11 +111,13 @@ Keep learning and Growing .
 |  |
 | ------- |
 | [0906-walking-robot-simulation](https://github.com/Suraj1719/LeetCodeProblem/tree/master/0906-walking-robot-simulation) |
+| [2044-number-of-wonderful-substrings](https://github.com/Suraj1719/LeetCodeProblem/tree/master/2044-number-of-wonderful-substrings) |
 | [3276-minimum-number-of-pushes-to-type-word-ii](https://github.com/Suraj1719/LeetCodeProblem/tree/master/3276-minimum-number-of-pushes-to-type-word-ii) |
 ## String
 |  |
 | ------- |
 | [0539-minimum-time-difference](https://github.com/Suraj1719/LeetCodeProblem/tree/master/0539-minimum-time-difference) |
+| [2044-number-of-wonderful-substrings](https://github.com/Suraj1719/LeetCodeProblem/tree/master/2044-number-of-wonderful-substrings) |
 | [2095-minimum-number-of-swaps-to-make-the-string-balanced](https://github.com/Suraj1719/LeetCodeProblem/tree/master/2095-minimum-number-of-swaps-to-make-the-string-balanced) |
 | [3276-minimum-number-of-pushes-to-type-word-ii](https://github.com/Suraj1719/LeetCodeProblem/tree/master/3276-minimum-number-of-pushes-to-type-word-ii) |
 ## Greedy
@@ -183,10 +185,12 @@ Keep learning and Growing .
 | [0238-product-of-array-except-self](https://github.com/Suraj1719/LeetCodeProblem/tree/master/0238-product-of-array-except-self) |
 | [1435-xor-queries-of-a-subarray](https://github.com/Suraj1719/LeetCodeProblem/tree/master/1435-xor-queries-of-a-subarray) |
 | [2006-find-the-student-that-will-replace-the-chalk](https://github.com/Suraj1719/LeetCodeProblem/tree/master/2006-find-the-student-that-will-replace-the-chalk) |
+| [2044-number-of-wonderful-substrings](https://github.com/Suraj1719/LeetCodeProblem/tree/master/2044-number-of-wonderful-substrings) |
 ## Bit Manipulation
 |  |
 | ------- |
 | [1435-xor-queries-of-a-subarray](https://github.com/Suraj1719/LeetCodeProblem/tree/master/1435-xor-queries-of-a-subarray) |
+| [2044-number-of-wonderful-substrings](https://github.com/Suraj1719/LeetCodeProblem/tree/master/2044-number-of-wonderful-substrings) |
 | [2503-longest-subarray-with-maximum-bitwise-and](https://github.com/Suraj1719/LeetCodeProblem/tree/master/2503-longest-subarray-with-maximum-bitwise-and) |
 ## Brainteaser
 |  |
