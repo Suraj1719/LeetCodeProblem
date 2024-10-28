@@ -112,6 +112,7 @@ Keep learning and Growing .
 | ------- |
 | [0906-walking-robot-simulation](https://github.com/Suraj1719/LeetCodeProblem/tree/master/0906-walking-robot-simulation) |
 | [2044-number-of-wonderful-substrings](https://github.com/Suraj1719/LeetCodeProblem/tree/master/2044-number-of-wonderful-substrings) |
+| [2586-longest-square-streak-in-an-array](https://github.com/Suraj1719/LeetCodeProblem/tree/master/2586-longest-square-streak-in-an-array) |
 | [3276-minimum-number-of-pushes-to-type-word-ii](https://github.com/Suraj1719/LeetCodeProblem/tree/master/3276-minimum-number-of-pushes-to-type-word-ii) |
 ## String
 |  |
@@ -135,6 +136,7 @@ Keep learning and Growing .
 | [0088-merge-sorted-array](https://github.com/Suraj1719/LeetCodeProblem/tree/master/0088-merge-sorted-array) |
 | [0274-h-index](https://github.com/Suraj1719/LeetCodeProblem/tree/master/0274-h-index) |
 | [0539-minimum-time-difference](https://github.com/Suraj1719/LeetCodeProblem/tree/master/0539-minimum-time-difference) |
+| [2586-longest-square-streak-in-an-array](https://github.com/Suraj1719/LeetCodeProblem/tree/master/2586-longest-square-streak-in-an-array) |
 | [2646-kth-largest-sum-in-a-binary-tree](https://github.com/Suraj1719/LeetCodeProblem/tree/master/2646-kth-largest-sum-in-a-binary-tree) |
 | [3276-minimum-number-of-pushes-to-type-word-ii](https://github.com/Suraj1719/LeetCodeProblem/tree/master/3276-minimum-number-of-pushes-to-type-word-ii) |
 ## Counting
@@ -160,6 +162,7 @@ Keep learning and Growing .
 | [2006-find-the-student-that-will-replace-the-chalk](https://github.com/Suraj1719/LeetCodeProblem/tree/master/2006-find-the-student-that-will-replace-the-chalk) |
 | [2132-convert-1d-array-into-2d-array](https://github.com/Suraj1719/LeetCodeProblem/tree/master/2132-convert-1d-array-into-2d-array) |
 | [2503-longest-subarray-with-maximum-bitwise-and](https://github.com/Suraj1719/LeetCodeProblem/tree/master/2503-longest-subarray-with-maximum-bitwise-and) |
+| [2586-longest-square-streak-in-an-array](https://github.com/Suraj1719/LeetCodeProblem/tree/master/2586-longest-square-streak-in-an-array) |
 ## Backtracking
 |  |
 | ------- |
@@ -179,6 +182,7 @@ Keep learning and Growing .
 |  |
 | ------- |
 | [2006-find-the-student-that-will-replace-the-chalk](https://github.com/Suraj1719/LeetCodeProblem/tree/master/2006-find-the-student-that-will-replace-the-chalk) |
+| [2586-longest-square-streak-in-an-array](https://github.com/Suraj1719/LeetCodeProblem/tree/master/2586-longest-square-streak-in-an-array) |
 ## Prefix Sum
 |  |
 | ------- |
@@ -207,6 +211,7 @@ Keep learning and Growing .
 | ------- |
 | [0045-jump-game-ii](https://github.com/Suraj1719/LeetCodeProblem/tree/master/0045-jump-game-ii) |
 | [0055-jump-game](https://github.com/Suraj1719/LeetCodeProblem/tree/master/0055-jump-game) |
+| [2586-longest-square-streak-in-an-array](https://github.com/Suraj1719/LeetCodeProblem/tree/master/2586-longest-square-streak-in-an-array) |
 ## Counting Sort
 |  |
 | ------- |
