@@ -168,6 +168,7 @@ Keep learning and Growing .
 | [2586-longest-square-streak-in-an-array](https://github.com/Suraj1719/LeetCodeProblem/tree/master/2586-longest-square-streak-in-an-array) |
 | [2794-maximum-number-of-moves-in-a-grid](https://github.com/Suraj1719/LeetCodeProblem/tree/master/2794-maximum-number-of-moves-in-a-grid) |
 | [3430-count-days-without-meetings](https://github.com/Suraj1719/LeetCodeProblem/tree/master/3430-count-days-without-meetings) |
+| [3747-maximum-difference-between-adjacent-elements-in-a-circular-array](https://github.com/Suraj1719/LeetCodeProblem/tree/master/3747-maximum-difference-between-adjacent-elements-in-a-circular-array) |
 ## Backtracking
 |  |
 | ------- |
