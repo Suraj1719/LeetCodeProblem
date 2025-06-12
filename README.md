@@ -113,6 +113,7 @@ Keep learning and Growing .
 | [0554-brick-wall](https://github.com/Suraj1719/LeetCodeProblem/tree/master/0554-brick-wall) |
 | [0560-subarray-sum-equals-k](https://github.com/Suraj1719/LeetCodeProblem/tree/master/0560-subarray-sum-equals-k) |
 | [0906-walking-robot-simulation](https://github.com/Suraj1719/LeetCodeProblem/tree/master/0906-walking-robot-simulation) |
+| [1016-subarray-sums-divisible-by-k](https://github.com/Suraj1719/LeetCodeProblem/tree/master/1016-subarray-sums-divisible-by-k) |
 | [2044-number-of-wonderful-substrings](https://github.com/Suraj1719/LeetCodeProblem/tree/master/2044-number-of-wonderful-substrings) |
 | [2586-longest-square-streak-in-an-array](https://github.com/Suraj1719/LeetCodeProblem/tree/master/2586-longest-square-streak-in-an-array) |
 | [3276-minimum-number-of-pushes-to-type-word-ii](https://github.com/Suraj1719/LeetCodeProblem/tree/master/3276-minimum-number-of-pushes-to-type-word-ii) |
@@ -163,6 +164,7 @@ Keep learning and Growing .
 | [0554-brick-wall](https://github.com/Suraj1719/LeetCodeProblem/tree/master/0554-brick-wall) |
 | [0560-subarray-sum-equals-k](https://github.com/Suraj1719/LeetCodeProblem/tree/master/0560-subarray-sum-equals-k) |
 | [0906-walking-robot-simulation](https://github.com/Suraj1719/LeetCodeProblem/tree/master/0906-walking-robot-simulation) |
+| [1016-subarray-sums-divisible-by-k](https://github.com/Suraj1719/LeetCodeProblem/tree/master/1016-subarray-sums-divisible-by-k) |
 | [1293-three-consecutive-odds](https://github.com/Suraj1719/LeetCodeProblem/tree/master/1293-three-consecutive-odds) |
 | [1346-maximize-the-topmost-element-after-k-moves](https://github.com/Suraj1719/LeetCodeProblem/tree/master/1346-maximize-the-topmost-element-after-k-moves) |
 | [1435-xor-queries-of-a-subarray](https://github.com/Suraj1719/LeetCodeProblem/tree/master/1435-xor-queries-of-a-subarray) |
@@ -199,6 +201,7 @@ Keep learning and Growing .
 | ------- |
 | [0238-product-of-array-except-self](https://github.com/Suraj1719/LeetCodeProblem/tree/master/0238-product-of-array-except-self) |
 | [0560-subarray-sum-equals-k](https://github.com/Suraj1719/LeetCodeProblem/tree/master/0560-subarray-sum-equals-k) |
+| [1016-subarray-sums-divisible-by-k](https://github.com/Suraj1719/LeetCodeProblem/tree/master/1016-subarray-sums-divisible-by-k) |
 | [1435-xor-queries-of-a-subarray](https://github.com/Suraj1719/LeetCodeProblem/tree/master/1435-xor-queries-of-a-subarray) |
 | [2006-find-the-student-that-will-replace-the-chalk](https://github.com/Suraj1719/LeetCodeProblem/tree/master/2006-find-the-student-that-will-replace-the-chalk) |
 | [2044-number-of-wonderful-substrings](https://github.com/Suraj1719/LeetCodeProblem/tree/master/2044-number-of-wonderful-substrings) |
