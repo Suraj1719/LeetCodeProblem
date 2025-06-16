@@ -110,6 +110,7 @@ Keep learning and Growing .
 ## Hash Table
 |  |
 | ------- |
+| [0128-longest-consecutive-sequence](https://github.com/Suraj1719/LeetCodeProblem/tree/master/0128-longest-consecutive-sequence) |
 | [0554-brick-wall](https://github.com/Suraj1719/LeetCodeProblem/tree/master/0554-brick-wall) |
 | [0560-subarray-sum-equals-k](https://github.com/Suraj1719/LeetCodeProblem/tree/master/0560-subarray-sum-equals-k) |
 | [0906-walking-robot-simulation](https://github.com/Suraj1719/LeetCodeProblem/tree/master/0906-walking-robot-simulation) |
@@ -156,6 +157,7 @@ Keep learning and Growing .
 | [0055-jump-game](https://github.com/Suraj1719/LeetCodeProblem/tree/master/0055-jump-game) |
 | [0080-remove-duplicates-from-sorted-array-ii](https://github.com/Suraj1719/LeetCodeProblem/tree/master/0080-remove-duplicates-from-sorted-array-ii) |
 | [0088-merge-sorted-array](https://github.com/Suraj1719/LeetCodeProblem/tree/master/0088-merge-sorted-array) |
+| [0128-longest-consecutive-sequence](https://github.com/Suraj1719/LeetCodeProblem/tree/master/0128-longest-consecutive-sequence) |
 | [0134-gas-station](https://github.com/Suraj1719/LeetCodeProblem/tree/master/0134-gas-station) |
 | [0238-product-of-array-except-self](https://github.com/Suraj1719/LeetCodeProblem/tree/master/0238-product-of-array-except-self) |
 | [0274-h-index](https://github.com/Suraj1719/LeetCodeProblem/tree/master/0274-h-index) |
@@ -259,4 +261,8 @@ Keep learning and Growing .
 |  |
 | ------- |
 | [2998-count-symmetric-integers](https://github.com/Suraj1719/LeetCodeProblem/tree/master/2998-count-symmetric-integers) |
+## Union Find
+|  |
+| ------- |
+| [0128-longest-consecutive-sequence](https://github.com/Suraj1719/LeetCodeProblem/tree/master/0128-longest-consecutive-sequence) |
 <!---LeetCode Topics End-->
