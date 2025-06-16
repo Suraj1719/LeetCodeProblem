@@ -170,6 +170,7 @@ Keep learning and Growing .
 | [1435-xor-queries-of-a-subarray](https://github.com/Suraj1719/LeetCodeProblem/tree/master/1435-xor-queries-of-a-subarray) |
 | [2006-find-the-student-that-will-replace-the-chalk](https://github.com/Suraj1719/LeetCodeProblem/tree/master/2006-find-the-student-that-will-replace-the-chalk) |
 | [2132-convert-1d-array-into-2d-array](https://github.com/Suraj1719/LeetCodeProblem/tree/master/2132-convert-1d-array-into-2d-array) |
+| [2144-maximum-difference-between-increasing-elements](https://github.com/Suraj1719/LeetCodeProblem/tree/master/2144-maximum-difference-between-increasing-elements) |
 | [2503-longest-subarray-with-maximum-bitwise-and](https://github.com/Suraj1719/LeetCodeProblem/tree/master/2503-longest-subarray-with-maximum-bitwise-and) |
 | [2586-longest-square-streak-in-an-array](https://github.com/Suraj1719/LeetCodeProblem/tree/master/2586-longest-square-streak-in-an-array) |
 | [2794-maximum-number-of-moves-in-a-grid](https://github.com/Suraj1719/LeetCodeProblem/tree/master/2794-maximum-number-of-moves-in-a-grid) |
