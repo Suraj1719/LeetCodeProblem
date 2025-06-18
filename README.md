@@ -110,6 +110,7 @@ Keep learning and Growing .
 ## Hash Table
 |  |
 | ------- |
+| [0076-minimum-window-substring](https://github.com/Suraj1719/LeetCodeProblem/tree/master/0076-minimum-window-substring) |
 | [0128-longest-consecutive-sequence](https://github.com/Suraj1719/LeetCodeProblem/tree/master/0128-longest-consecutive-sequence) |
 | [0438-find-all-anagrams-in-a-string](https://github.com/Suraj1719/LeetCodeProblem/tree/master/0438-find-all-anagrams-in-a-string) |
 | [0554-brick-wall](https://github.com/Suraj1719/LeetCodeProblem/tree/master/0554-brick-wall) |
@@ -122,6 +123,7 @@ Keep learning and Growing .
 ## String
 |  |
 | ------- |
+| [0076-minimum-window-substring](https://github.com/Suraj1719/LeetCodeProblem/tree/master/0076-minimum-window-substring) |
 | [0438-find-all-anagrams-in-a-string](https://github.com/Suraj1719/LeetCodeProblem/tree/master/0438-find-all-anagrams-in-a-string) |
 | [0539-minimum-time-difference](https://github.com/Suraj1719/LeetCodeProblem/tree/master/0539-minimum-time-difference) |
 | [2044-number-of-wonderful-substrings](https://github.com/Suraj1719/LeetCodeProblem/tree/master/2044-number-of-wonderful-substrings) |
@@ -270,5 +272,6 @@ Keep learning and Growing .
 ## Sliding Window
 |  |
 | ------- |
+| [0076-minimum-window-substring](https://github.com/Suraj1719/LeetCodeProblem/tree/master/0076-minimum-window-substring) |
 | [0438-find-all-anagrams-in-a-string](https://github.com/Suraj1719/LeetCodeProblem/tree/master/0438-find-all-anagrams-in-a-string) |
 <!---LeetCode Topics End-->
