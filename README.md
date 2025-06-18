@@ -111,6 +111,7 @@ Keep learning and Growing .
 |  |
 | ------- |
 | [0128-longest-consecutive-sequence](https://github.com/Suraj1719/LeetCodeProblem/tree/master/0128-longest-consecutive-sequence) |
+| [0438-find-all-anagrams-in-a-string](https://github.com/Suraj1719/LeetCodeProblem/tree/master/0438-find-all-anagrams-in-a-string) |
 | [0554-brick-wall](https://github.com/Suraj1719/LeetCodeProblem/tree/master/0554-brick-wall) |
 | [0560-subarray-sum-equals-k](https://github.com/Suraj1719/LeetCodeProblem/tree/master/0560-subarray-sum-equals-k) |
 | [0906-walking-robot-simulation](https://github.com/Suraj1719/LeetCodeProblem/tree/master/0906-walking-robot-simulation) |
@@ -121,6 +122,7 @@ Keep learning and Growing .
 ## String
 |  |
 | ------- |
+| [0438-find-all-anagrams-in-a-string](https://github.com/Suraj1719/LeetCodeProblem/tree/master/0438-find-all-anagrams-in-a-string) |
 | [0539-minimum-time-difference](https://github.com/Suraj1719/LeetCodeProblem/tree/master/0539-minimum-time-difference) |
 | [2044-number-of-wonderful-substrings](https://github.com/Suraj1719/LeetCodeProblem/tree/master/2044-number-of-wonderful-substrings) |
 | [2095-minimum-number-of-swaps-to-make-the-string-balanced](https://github.com/Suraj1719/LeetCodeProblem/tree/master/2095-minimum-number-of-swaps-to-make-the-string-balanced) |
@@ -265,4 +267,8 @@ Keep learning and Growing .
 |  |
 | ------- |
 | [0128-longest-consecutive-sequence](https://github.com/Suraj1719/LeetCodeProblem/tree/master/0128-longest-consecutive-sequence) |
+## Sliding Window
+|  |
+| ------- |
+| [0438-find-all-anagrams-in-a-string](https://github.com/Suraj1719/LeetCodeProblem/tree/master/0438-find-all-anagrams-in-a-string) |
 <!---LeetCode Topics End-->
