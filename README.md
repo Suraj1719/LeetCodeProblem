@@ -148,6 +148,7 @@ Keep learning and Growing .
 | [0088-merge-sorted-array](https://github.com/Suraj1719/LeetCodeProblem/tree/master/0088-merge-sorted-array) |
 | [0215-kth-largest-element-in-an-array](https://github.com/Suraj1719/LeetCodeProblem/tree/master/0215-kth-largest-element-in-an-array) |
 | [0274-h-index](https://github.com/Suraj1719/LeetCodeProblem/tree/master/0274-h-index) |
+| [0295-find-median-from-data-stream](https://github.com/Suraj1719/LeetCodeProblem/tree/master/0295-find-median-from-data-stream) |
 | [0539-minimum-time-difference](https://github.com/Suraj1719/LeetCodeProblem/tree/master/0539-minimum-time-difference) |
 | [2586-longest-square-streak-in-an-array](https://github.com/Suraj1719/LeetCodeProblem/tree/master/2586-longest-square-streak-in-an-array) |
 | [2646-kth-largest-sum-in-a-binary-tree](https://github.com/Suraj1719/LeetCodeProblem/tree/master/2646-kth-largest-sum-in-a-binary-tree) |
@@ -236,6 +237,7 @@ Keep learning and Growing .
 | ------- |
 | [0080-remove-duplicates-from-sorted-array-ii](https://github.com/Suraj1719/LeetCodeProblem/tree/master/0080-remove-duplicates-from-sorted-array-ii) |
 | [0088-merge-sorted-array](https://github.com/Suraj1719/LeetCodeProblem/tree/master/0088-merge-sorted-array) |
+| [0295-find-median-from-data-stream](https://github.com/Suraj1719/LeetCodeProblem/tree/master/0295-find-median-from-data-stream) |
 | [2095-minimum-number-of-swaps-to-make-the-string-balanced](https://github.com/Suraj1719/LeetCodeProblem/tree/master/2095-minimum-number-of-swaps-to-make-the-string-balanced) |
 ## Dynamic Programming
 |  |
@@ -292,9 +294,18 @@ Keep learning and Growing .
 |  |
 | ------- |
 | [0215-kth-largest-element-in-an-array](https://github.com/Suraj1719/LeetCodeProblem/tree/master/0215-kth-largest-element-in-an-array) |
+| [0295-find-median-from-data-stream](https://github.com/Suraj1719/LeetCodeProblem/tree/master/0295-find-median-from-data-stream) |
 | [0902-minimum-number-of-refueling-stops](https://github.com/Suraj1719/LeetCodeProblem/tree/master/0902-minimum-number-of-refueling-stops) |
 ## Quickselect
 |  |
 | ------- |
 | [0215-kth-largest-element-in-an-array](https://github.com/Suraj1719/LeetCodeProblem/tree/master/0215-kth-largest-element-in-an-array) |
+## Design
+|  |
+| ------- |
+| [0295-find-median-from-data-stream](https://github.com/Suraj1719/LeetCodeProblem/tree/master/0295-find-median-from-data-stream) |
+## Data Stream
+|  |
+| ------- |
+| [0295-find-median-from-data-stream](https://github.com/Suraj1719/LeetCodeProblem/tree/master/0295-find-median-from-data-stream) |
 <!---LeetCode Topics End-->
