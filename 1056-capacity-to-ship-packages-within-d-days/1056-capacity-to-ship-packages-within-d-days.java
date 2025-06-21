@@ -1,8 +1,5 @@
 class Solution {
     public int shipWithinDays(int[] weights, int days) {
-        //we can also do by brute force approach
-        //we check from minimum capacity which is maximum value in weight to maximum capacity
-        //that is total sum of weight array
         int minLoad=0;
         int maxLoad=0;
         for(int i=0;i<weights.length;i++){
@@ -11,9 +8,9 @@ class Solution {
         }
         int res=maxLoad;
         //binary search approach
-        while(minLoad<=maxLoad){
+        while(minLoad<=maxLoad){//a ship can carry
             int mid=(minLoad+maxLoad)/2;
-            if(canShiped(mid,days,weights)){
+            if(possibleToShip(mid,days,weights)){
                 res=Math.min(res,mid);
                 maxLoad=mid-1;
             }else
@@ -21,7 +18,7 @@ class Solution {
         }
         return res;
     }
-    boolean canShiped(int space,int totalday,int []w){
+    boolean possibleToShip(int space,int totalday,int []w){
         int ship=1;
         int cur=space;
         for(int i=0;i<w.length;i++){
