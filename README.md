@@ -181,6 +181,7 @@ Keep learning and Growing .
 | [0902-minimum-number-of-refueling-stops](https://github.com/Suraj1719/LeetCodeProblem/tree/master/0902-minimum-number-of-refueling-stops) |
 | [0906-walking-robot-simulation](https://github.com/Suraj1719/LeetCodeProblem/tree/master/0906-walking-robot-simulation) |
 | [1016-subarray-sums-divisible-by-k](https://github.com/Suraj1719/LeetCodeProblem/tree/master/1016-subarray-sums-divisible-by-k) |
+| [1056-capacity-to-ship-packages-within-d-days](https://github.com/Suraj1719/LeetCodeProblem/tree/master/1056-capacity-to-ship-packages-within-d-days) |
 | [1293-three-consecutive-odds](https://github.com/Suraj1719/LeetCodeProblem/tree/master/1293-three-consecutive-odds) |
 | [1346-maximize-the-topmost-element-after-k-moves](https://github.com/Suraj1719/LeetCodeProblem/tree/master/1346-maximize-the-topmost-element-after-k-moves) |
 | [1435-xor-queries-of-a-subarray](https://github.com/Suraj1719/LeetCodeProblem/tree/master/1435-xor-queries-of-a-subarray) |
@@ -211,6 +212,7 @@ Keep learning and Growing .
 ## Binary Search
 |  |
 | ------- |
+| [1056-capacity-to-ship-packages-within-d-days](https://github.com/Suraj1719/LeetCodeProblem/tree/master/1056-capacity-to-ship-packages-within-d-days) |
 | [2006-find-the-student-that-will-replace-the-chalk](https://github.com/Suraj1719/LeetCodeProblem/tree/master/2006-find-the-student-that-will-replace-the-chalk) |
 | [2586-longest-square-streak-in-an-array](https://github.com/Suraj1719/LeetCodeProblem/tree/master/2586-longest-square-streak-in-an-array) |
 ## Prefix Sum
