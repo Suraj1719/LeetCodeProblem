@@ -281,6 +281,7 @@ Keep learning and Growing .
 |  |
 | ------- |
 | [0539-minimum-time-difference](https://github.com/Suraj1719/LeetCodeProblem/tree/master/0539-minimum-time-difference) |
+| [1411-convert-binary-number-in-a-linked-list-to-integer](https://github.com/Suraj1719/LeetCodeProblem/tree/master/1411-convert-binary-number-in-a-linked-list-to-integer) |
 | [2998-count-symmetric-integers](https://github.com/Suraj1719/LeetCodeProblem/tree/master/2998-count-symmetric-integers) |
 ## Enumeration
 |  |
@@ -319,4 +320,8 @@ Keep learning and Growing .
 |  |
 | ------- |
 | [0295-find-median-from-data-stream](https://github.com/Suraj1719/LeetCodeProblem/tree/master/0295-find-median-from-data-stream) |
+## Linked List
+|  |
+| ------- |
+| [1411-convert-binary-number-in-a-linked-list-to-integer](https://github.com/Suraj1719/LeetCodeProblem/tree/master/1411-convert-binary-number-in-a-linked-list-to-integer) |
 <!---LeetCode Topics End-->
