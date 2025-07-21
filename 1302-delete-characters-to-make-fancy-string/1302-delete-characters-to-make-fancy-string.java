@@ -14,9 +14,11 @@ class Solution {
                 cur_char_count=1;
             }
 
-            if(cur_char_count<=2)sb.append(ch);
-
             ind++;
+            if(cur_char_count>2)continue;
+            else sb.append(ch);
+
+            //ind++;
         }
         return sb.toString();
     }
