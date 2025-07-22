@@ -118,6 +118,7 @@ Keep learning and Growing .
 | [0594-longest-harmonious-subsequence](https://github.com/Suraj1719/LeetCodeProblem/tree/master/0594-longest-harmonious-subsequence) |
 | [0906-walking-robot-simulation](https://github.com/Suraj1719/LeetCodeProblem/tree/master/0906-walking-robot-simulation) |
 | [1016-subarray-sums-divisible-by-k](https://github.com/Suraj1719/LeetCodeProblem/tree/master/1016-subarray-sums-divisible-by-k) |
+| [1813-maximum-erasure-value](https://github.com/Suraj1719/LeetCodeProblem/tree/master/1813-maximum-erasure-value) |
 | [2044-number-of-wonderful-substrings](https://github.com/Suraj1719/LeetCodeProblem/tree/master/2044-number-of-wonderful-substrings) |
 | [2204-find-subsequence-of-length-k-with-the-largest-sum](https://github.com/Suraj1719/LeetCodeProblem/tree/master/2204-find-subsequence-of-length-k-with-the-largest-sum) |
 | [2586-longest-square-streak-in-an-array](https://github.com/Suraj1719/LeetCodeProblem/tree/master/2586-longest-square-streak-in-an-array) |
@@ -193,6 +194,7 @@ Keep learning and Growing .
 | [1293-three-consecutive-odds](https://github.com/Suraj1719/LeetCodeProblem/tree/master/1293-three-consecutive-odds) |
 | [1346-maximize-the-topmost-element-after-k-moves](https://github.com/Suraj1719/LeetCodeProblem/tree/master/1346-maximize-the-topmost-element-after-k-moves) |
 | [1435-xor-queries-of-a-subarray](https://github.com/Suraj1719/LeetCodeProblem/tree/master/1435-xor-queries-of-a-subarray) |
+| [1813-maximum-erasure-value](https://github.com/Suraj1719/LeetCodeProblem/tree/master/1813-maximum-erasure-value) |
 | [2006-find-the-student-that-will-replace-the-chalk](https://github.com/Suraj1719/LeetCodeProblem/tree/master/2006-find-the-student-that-will-replace-the-chalk) |
 | [2132-convert-1d-array-into-2d-array](https://github.com/Suraj1719/LeetCodeProblem/tree/master/2132-convert-1d-array-into-2d-array) |
 | [2144-maximum-difference-between-increasing-elements](https://github.com/Suraj1719/LeetCodeProblem/tree/master/2144-maximum-difference-between-increasing-elements) |
@@ -300,6 +302,7 @@ Keep learning and Growing .
 | [0076-minimum-window-substring](https://github.com/Suraj1719/LeetCodeProblem/tree/master/0076-minimum-window-substring) |
 | [0438-find-all-anagrams-in-a-string](https://github.com/Suraj1719/LeetCodeProblem/tree/master/0438-find-all-anagrams-in-a-string) |
 | [0594-longest-harmonious-subsequence](https://github.com/Suraj1719/LeetCodeProblem/tree/master/0594-longest-harmonious-subsequence) |
+| [1813-maximum-erasure-value](https://github.com/Suraj1719/LeetCodeProblem/tree/master/1813-maximum-erasure-value) |
 ## Divide and Conquer
 |  |
 | ------- |
