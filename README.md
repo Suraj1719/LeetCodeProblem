@@ -122,6 +122,7 @@ Keep learning and Growing .
 | [2044-number-of-wonderful-substrings](https://github.com/Suraj1719/LeetCodeProblem/tree/master/2044-number-of-wonderful-substrings) |
 | [2204-find-subsequence-of-length-k-with-the-largest-sum](https://github.com/Suraj1719/LeetCodeProblem/tree/master/2204-find-subsequence-of-length-k-with-the-largest-sum) |
 | [2586-longest-square-streak-in-an-array](https://github.com/Suraj1719/LeetCodeProblem/tree/master/2586-longest-square-streak-in-an-array) |
+| [2689-rearranging-fruits](https://github.com/Suraj1719/LeetCodeProblem/tree/master/2689-rearranging-fruits) |
 | [3276-minimum-number-of-pushes-to-type-word-ii](https://github.com/Suraj1719/LeetCodeProblem/tree/master/3276-minimum-number-of-pushes-to-type-word-ii) |
 | [3360-minimum-deletions-to-make-string-k-special](https://github.com/Suraj1719/LeetCodeProblem/tree/master/3360-minimum-deletions-to-make-string-k-special) |
 ## String
@@ -144,6 +145,7 @@ Keep learning and Growing .
 | [0902-minimum-number-of-refueling-stops](https://github.com/Suraj1719/LeetCodeProblem/tree/master/0902-minimum-number-of-refueling-stops) |
 | [1346-maximize-the-topmost-element-after-k-moves](https://github.com/Suraj1719/LeetCodeProblem/tree/master/1346-maximize-the-topmost-element-after-k-moves) |
 | [2095-minimum-number-of-swaps-to-make-the-string-balanced](https://github.com/Suraj1719/LeetCodeProblem/tree/master/2095-minimum-number-of-swaps-to-make-the-string-balanced) |
+| [2689-rearranging-fruits](https://github.com/Suraj1719/LeetCodeProblem/tree/master/2689-rearranging-fruits) |
 | [3276-minimum-number-of-pushes-to-type-word-ii](https://github.com/Suraj1719/LeetCodeProblem/tree/master/3276-minimum-number-of-pushes-to-type-word-ii) |
 | [3360-minimum-deletions-to-make-string-k-special](https://github.com/Suraj1719/LeetCodeProblem/tree/master/3360-minimum-deletions-to-make-string-k-special) |
 ## Sorting
@@ -158,6 +160,7 @@ Keep learning and Growing .
 | [2204-find-subsequence-of-length-k-with-the-largest-sum](https://github.com/Suraj1719/LeetCodeProblem/tree/master/2204-find-subsequence-of-length-k-with-the-largest-sum) |
 | [2586-longest-square-streak-in-an-array](https://github.com/Suraj1719/LeetCodeProblem/tree/master/2586-longest-square-streak-in-an-array) |
 | [2646-kth-largest-sum-in-a-binary-tree](https://github.com/Suraj1719/LeetCodeProblem/tree/master/2646-kth-largest-sum-in-a-binary-tree) |
+| [2689-rearranging-fruits](https://github.com/Suraj1719/LeetCodeProblem/tree/master/2689-rearranging-fruits) |
 | [3276-minimum-number-of-pushes-to-type-word-ii](https://github.com/Suraj1719/LeetCodeProblem/tree/master/3276-minimum-number-of-pushes-to-type-word-ii) |
 | [3360-minimum-deletions-to-make-string-k-special](https://github.com/Suraj1719/LeetCodeProblem/tree/master/3360-minimum-deletions-to-make-string-k-special) |
 | [3430-count-days-without-meetings](https://github.com/Suraj1719/LeetCodeProblem/tree/master/3430-count-days-without-meetings) |
@@ -202,6 +205,7 @@ Keep learning and Growing .
 | [2204-find-subsequence-of-length-k-with-the-largest-sum](https://github.com/Suraj1719/LeetCodeProblem/tree/master/2204-find-subsequence-of-length-k-with-the-largest-sum) |
 | [2503-longest-subarray-with-maximum-bitwise-and](https://github.com/Suraj1719/LeetCodeProblem/tree/master/2503-longest-subarray-with-maximum-bitwise-and) |
 | [2586-longest-square-streak-in-an-array](https://github.com/Suraj1719/LeetCodeProblem/tree/master/2586-longest-square-streak-in-an-array) |
+| [2689-rearranging-fruits](https://github.com/Suraj1719/LeetCodeProblem/tree/master/2689-rearranging-fruits) |
 | [2794-maximum-number-of-moves-in-a-grid](https://github.com/Suraj1719/LeetCodeProblem/tree/master/2794-maximum-number-of-moves-in-a-grid) |
 | [3430-count-days-without-meetings](https://github.com/Suraj1719/LeetCodeProblem/tree/master/3430-count-days-without-meetings) |
 | [3747-maximum-difference-between-adjacent-elements-in-a-circular-array](https://github.com/Suraj1719/LeetCodeProblem/tree/master/3747-maximum-difference-between-adjacent-elements-in-a-circular-array) |
