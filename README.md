@@ -281,10 +281,12 @@ Keep learning and Growing .
 ## Stack
 |  |
 | ------- |
+| [0144-binary-tree-preorder-traversal](https://github.com/Suraj1719/LeetCodeProblem/tree/master/0144-binary-tree-preorder-traversal) |
 | [2095-minimum-number-of-swaps-to-make-the-string-balanced](https://github.com/Suraj1719/LeetCodeProblem/tree/master/2095-minimum-number-of-swaps-to-make-the-string-balanced) |
 ## Tree
 |  |
 | ------- |
+| [0144-binary-tree-preorder-traversal](https://github.com/Suraj1719/LeetCodeProblem/tree/master/0144-binary-tree-preorder-traversal) |
 | [2646-kth-largest-sum-in-a-binary-tree](https://github.com/Suraj1719/LeetCodeProblem/tree/master/2646-kth-largest-sum-in-a-binary-tree) |
 ## Breadth-First Search
 |  |
@@ -293,6 +295,7 @@ Keep learning and Growing .
 ## Binary Tree
 |  |
 | ------- |
+| [0144-binary-tree-preorder-traversal](https://github.com/Suraj1719/LeetCodeProblem/tree/master/0144-binary-tree-preorder-traversal) |
 | [2646-kth-largest-sum-in-a-binary-tree](https://github.com/Suraj1719/LeetCodeProblem/tree/master/2646-kth-largest-sum-in-a-binary-tree) |
 ## Math
 |  |
@@ -352,4 +355,8 @@ Keep learning and Growing .
 |  |
 | ------- |
 | [3790-fruits-into-baskets-ii](https://github.com/Suraj1719/LeetCodeProblem/tree/master/3790-fruits-into-baskets-ii) |
+## Depth-First Search
+|  |
+| ------- |
+| [0144-binary-tree-preorder-traversal](https://github.com/Suraj1719/LeetCodeProblem/tree/master/0144-binary-tree-preorder-traversal) |
 <!---LeetCode Topics End-->
