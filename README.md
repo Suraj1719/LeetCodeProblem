@@ -201,6 +201,7 @@ Keep learning and Growing .
 | [1293-three-consecutive-odds](https://github.com/Suraj1719/LeetCodeProblem/tree/master/1293-three-consecutive-odds) |
 | [1346-maximize-the-topmost-element-after-k-moves](https://github.com/Suraj1719/LeetCodeProblem/tree/master/1346-maximize-the-topmost-element-after-k-moves) |
 | [1435-xor-queries-of-a-subarray](https://github.com/Suraj1719/LeetCodeProblem/tree/master/1435-xor-queries-of-a-subarray) |
+| [1628-count-submatrices-with-all-ones](https://github.com/Suraj1719/LeetCodeProblem/tree/master/1628-count-submatrices-with-all-ones) |
 | [1813-maximum-erasure-value](https://github.com/Suraj1719/LeetCodeProblem/tree/master/1813-maximum-erasure-value) |
 | [2006-find-the-student-that-will-replace-the-chalk](https://github.com/Suraj1719/LeetCodeProblem/tree/master/2006-find-the-student-that-will-replace-the-chalk) |
 | [2132-convert-1d-array-into-2d-array](https://github.com/Suraj1719/LeetCodeProblem/tree/master/2132-convert-1d-array-into-2d-array) |
@@ -221,6 +222,7 @@ Keep learning and Growing .
 ## Matrix
 |  |
 | ------- |
+| [1628-count-submatrices-with-all-ones](https://github.com/Suraj1719/LeetCodeProblem/tree/master/1628-count-submatrices-with-all-ones) |
 | [2132-convert-1d-array-into-2d-array](https://github.com/Suraj1719/LeetCodeProblem/tree/master/2132-convert-1d-array-into-2d-array) |
 | [2794-maximum-number-of-moves-in-a-grid](https://github.com/Suraj1719/LeetCodeProblem/tree/master/2794-maximum-number-of-moves-in-a-grid) |
 ## Simulation
@@ -272,6 +274,7 @@ Keep learning and Growing .
 | [0118-pascals-triangle](https://github.com/Suraj1719/LeetCodeProblem/tree/master/0118-pascals-triangle) |
 | [0416-partition-equal-subset-sum](https://github.com/Suraj1719/LeetCodeProblem/tree/master/0416-partition-equal-subset-sum) |
 | [0902-minimum-number-of-refueling-stops](https://github.com/Suraj1719/LeetCodeProblem/tree/master/0902-minimum-number-of-refueling-stops) |
+| [1628-count-submatrices-with-all-ones](https://github.com/Suraj1719/LeetCodeProblem/tree/master/1628-count-submatrices-with-all-ones) |
 | [2586-longest-square-streak-in-an-array](https://github.com/Suraj1719/LeetCodeProblem/tree/master/2586-longest-square-streak-in-an-array) |
 | [2794-maximum-number-of-moves-in-a-grid](https://github.com/Suraj1719/LeetCodeProblem/tree/master/2794-maximum-number-of-moves-in-a-grid) |
 ## Counting Sort
@@ -282,6 +285,7 @@ Keep learning and Growing .
 |  |
 | ------- |
 | [0144-binary-tree-preorder-traversal](https://github.com/Suraj1719/LeetCodeProblem/tree/master/0144-binary-tree-preorder-traversal) |
+| [1628-count-submatrices-with-all-ones](https://github.com/Suraj1719/LeetCodeProblem/tree/master/1628-count-submatrices-with-all-ones) |
 | [2095-minimum-number-of-swaps-to-make-the-string-balanced](https://github.com/Suraj1719/LeetCodeProblem/tree/master/2095-minimum-number-of-swaps-to-make-the-string-balanced) |
 ## Tree
 |  |
@@ -359,4 +363,8 @@ Keep learning and Growing .
 |  |
 | ------- |
 | [0144-binary-tree-preorder-traversal](https://github.com/Suraj1719/LeetCodeProblem/tree/master/0144-binary-tree-preorder-traversal) |
+## Monotonic Stack
+|  |
+| ------- |
+| [1628-count-submatrices-with-all-ones](https://github.com/Suraj1719/LeetCodeProblem/tree/master/1628-count-submatrices-with-all-ones) |
 <!---LeetCode Topics End-->
