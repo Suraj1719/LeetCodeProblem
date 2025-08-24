@@ -201,6 +201,7 @@ Keep learning and Growing .
 | [1293-three-consecutive-odds](https://github.com/Suraj1719/LeetCodeProblem/tree/master/1293-three-consecutive-odds) |
 | [1346-maximize-the-topmost-element-after-k-moves](https://github.com/Suraj1719/LeetCodeProblem/tree/master/1346-maximize-the-topmost-element-after-k-moves) |
 | [1435-xor-queries-of-a-subarray](https://github.com/Suraj1719/LeetCodeProblem/tree/master/1435-xor-queries-of-a-subarray) |
+| [1586-longest-subarray-of-1s-after-deleting-one-element](https://github.com/Suraj1719/LeetCodeProblem/tree/master/1586-longest-subarray-of-1s-after-deleting-one-element) |
 | [1628-count-submatrices-with-all-ones](https://github.com/Suraj1719/LeetCodeProblem/tree/master/1628-count-submatrices-with-all-ones) |
 | [1813-maximum-erasure-value](https://github.com/Suraj1719/LeetCodeProblem/tree/master/1813-maximum-erasure-value) |
 | [2006-find-the-student-that-will-replace-the-chalk](https://github.com/Suraj1719/LeetCodeProblem/tree/master/2006-find-the-student-that-will-replace-the-chalk) |
@@ -274,6 +275,7 @@ Keep learning and Growing .
 | [0118-pascals-triangle](https://github.com/Suraj1719/LeetCodeProblem/tree/master/0118-pascals-triangle) |
 | [0416-partition-equal-subset-sum](https://github.com/Suraj1719/LeetCodeProblem/tree/master/0416-partition-equal-subset-sum) |
 | [0902-minimum-number-of-refueling-stops](https://github.com/Suraj1719/LeetCodeProblem/tree/master/0902-minimum-number-of-refueling-stops) |
+| [1586-longest-subarray-of-1s-after-deleting-one-element](https://github.com/Suraj1719/LeetCodeProblem/tree/master/1586-longest-subarray-of-1s-after-deleting-one-element) |
 | [1628-count-submatrices-with-all-ones](https://github.com/Suraj1719/LeetCodeProblem/tree/master/1628-count-submatrices-with-all-ones) |
 | [2586-longest-square-streak-in-an-array](https://github.com/Suraj1719/LeetCodeProblem/tree/master/2586-longest-square-streak-in-an-array) |
 | [2794-maximum-number-of-moves-in-a-grid](https://github.com/Suraj1719/LeetCodeProblem/tree/master/2794-maximum-number-of-moves-in-a-grid) |
@@ -323,6 +325,7 @@ Keep learning and Growing .
 | [0076-minimum-window-substring](https://github.com/Suraj1719/LeetCodeProblem/tree/master/0076-minimum-window-substring) |
 | [0438-find-all-anagrams-in-a-string](https://github.com/Suraj1719/LeetCodeProblem/tree/master/0438-find-all-anagrams-in-a-string) |
 | [0594-longest-harmonious-subsequence](https://github.com/Suraj1719/LeetCodeProblem/tree/master/0594-longest-harmonious-subsequence) |
+| [1586-longest-subarray-of-1s-after-deleting-one-element](https://github.com/Suraj1719/LeetCodeProblem/tree/master/1586-longest-subarray-of-1s-after-deleting-one-element) |
 | [1813-maximum-erasure-value](https://github.com/Suraj1719/LeetCodeProblem/tree/master/1813-maximum-erasure-value) |
 ## Divide and Conquer
 |  |
