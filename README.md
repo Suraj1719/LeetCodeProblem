@@ -296,6 +296,7 @@ Keep learning and Growing .
 | [0104-maximum-depth-of-binary-tree](https://github.com/Suraj1719/LeetCodeProblem/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0110-balanced-binary-tree](https://github.com/Suraj1719/LeetCodeProblem/tree/master/0110-balanced-binary-tree) |
 | [0144-binary-tree-preorder-traversal](https://github.com/Suraj1719/LeetCodeProblem/tree/master/0144-binary-tree-preorder-traversal) |
+| [0543-diameter-of-binary-tree](https://github.com/Suraj1719/LeetCodeProblem/tree/master/0543-diameter-of-binary-tree) |
 | [2646-kth-largest-sum-in-a-binary-tree](https://github.com/Suraj1719/LeetCodeProblem/tree/master/2646-kth-largest-sum-in-a-binary-tree) |
 ## Breadth-First Search
 |  |
@@ -308,6 +309,7 @@ Keep learning and Growing .
 | [0104-maximum-depth-of-binary-tree](https://github.com/Suraj1719/LeetCodeProblem/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0110-balanced-binary-tree](https://github.com/Suraj1719/LeetCodeProblem/tree/master/0110-balanced-binary-tree) |
 | [0144-binary-tree-preorder-traversal](https://github.com/Suraj1719/LeetCodeProblem/tree/master/0144-binary-tree-preorder-traversal) |
+| [0543-diameter-of-binary-tree](https://github.com/Suraj1719/LeetCodeProblem/tree/master/0543-diameter-of-binary-tree) |
 | [2646-kth-largest-sum-in-a-binary-tree](https://github.com/Suraj1719/LeetCodeProblem/tree/master/2646-kth-largest-sum-in-a-binary-tree) |
 ## Math
 |  |
@@ -374,6 +376,7 @@ Keep learning and Growing .
 | [0104-maximum-depth-of-binary-tree](https://github.com/Suraj1719/LeetCodeProblem/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0110-balanced-binary-tree](https://github.com/Suraj1719/LeetCodeProblem/tree/master/0110-balanced-binary-tree) |
 | [0144-binary-tree-preorder-traversal](https://github.com/Suraj1719/LeetCodeProblem/tree/master/0144-binary-tree-preorder-traversal) |
+| [0543-diameter-of-binary-tree](https://github.com/Suraj1719/LeetCodeProblem/tree/master/0543-diameter-of-binary-tree) |
 ## Monotonic Stack
 |  |
 | ------- |
