@@ -110,6 +110,7 @@ Keep learning and Growing .
 ## Hash Table
 |  |
 | ------- |
+| [0037-sudoku-solver](https://github.com/Suraj1719/LeetCodeProblem/tree/master/0037-sudoku-solver) |
 | [0076-minimum-window-substring](https://github.com/Suraj1719/LeetCodeProblem/tree/master/0076-minimum-window-substring) |
 | [0128-longest-consecutive-sequence](https://github.com/Suraj1719/LeetCodeProblem/tree/master/0128-longest-consecutive-sequence) |
 | [0438-find-all-anagrams-in-a-string](https://github.com/Suraj1719/LeetCodeProblem/tree/master/0438-find-all-anagrams-in-a-string) |
@@ -176,6 +177,7 @@ Keep learning and Growing .
 ## Array
 |  |
 | ------- |
+| [0037-sudoku-solver](https://github.com/Suraj1719/LeetCodeProblem/tree/master/0037-sudoku-solver) |
 | [0039-combination-sum](https://github.com/Suraj1719/LeetCodeProblem/tree/master/0039-combination-sum) |
 | [0040-combination-sum-ii](https://github.com/Suraj1719/LeetCodeProblem/tree/master/0040-combination-sum-ii) |
 | [0045-jump-game-ii](https://github.com/Suraj1719/LeetCodeProblem/tree/master/0045-jump-game-ii) |
@@ -219,11 +221,13 @@ Keep learning and Growing .
 ## Backtracking
 |  |
 | ------- |
+| [0037-sudoku-solver](https://github.com/Suraj1719/LeetCodeProblem/tree/master/0037-sudoku-solver) |
 | [0039-combination-sum](https://github.com/Suraj1719/LeetCodeProblem/tree/master/0039-combination-sum) |
 | [0040-combination-sum-ii](https://github.com/Suraj1719/LeetCodeProblem/tree/master/0040-combination-sum-ii) |
 ## Matrix
 |  |
 | ------- |
+| [0037-sudoku-solver](https://github.com/Suraj1719/LeetCodeProblem/tree/master/0037-sudoku-solver) |
 | [1628-count-submatrices-with-all-ones](https://github.com/Suraj1719/LeetCodeProblem/tree/master/1628-count-submatrices-with-all-ones) |
 | [2132-convert-1d-array-into-2d-array](https://github.com/Suraj1719/LeetCodeProblem/tree/master/2132-convert-1d-array-into-2d-array) |
 | [2794-maximum-number-of-moves-in-a-grid](https://github.com/Suraj1719/LeetCodeProblem/tree/master/2794-maximum-number-of-moves-in-a-grid) |
