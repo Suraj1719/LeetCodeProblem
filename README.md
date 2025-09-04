@@ -325,6 +325,7 @@ Keep learning and Growing .
 | [1411-convert-binary-number-in-a-linked-list-to-integer](https://github.com/Suraj1719/LeetCodeProblem/tree/master/1411-convert-binary-number-in-a-linked-list-to-integer) |
 | [2998-count-symmetric-integers](https://github.com/Suraj1719/LeetCodeProblem/tree/master/2998-count-symmetric-integers) |
 | [3279-alice-and-bob-playing-flower-game](https://github.com/Suraj1719/LeetCodeProblem/tree/master/3279-alice-and-bob-playing-flower-game) |
+| [3830-find-closest-person](https://github.com/Suraj1719/LeetCodeProblem/tree/master/3830-find-closest-person) |
 ## Enumeration
 |  |
 | ------- |
