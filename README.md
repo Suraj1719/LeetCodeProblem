@@ -165,6 +165,7 @@ Keep learning and Growing .
 | [2586-longest-square-streak-in-an-array](https://github.com/Suraj1719/LeetCodeProblem/tree/master/2586-longest-square-streak-in-an-array) |
 | [2646-kth-largest-sum-in-a-binary-tree](https://github.com/Suraj1719/LeetCodeProblem/tree/master/2646-kth-largest-sum-in-a-binary-tree) |
 | [2689-rearranging-fruits](https://github.com/Suraj1719/LeetCodeProblem/tree/master/2689-rearranging-fruits) |
+| [3010-divide-an-array-into-subarrays-with-minimum-cost-i](https://github.com/Suraj1719/LeetCodeProblem/tree/master/3010-divide-an-array-into-subarrays-with-minimum-cost-i) |
 | [3276-minimum-number-of-pushes-to-type-word-ii](https://github.com/Suraj1719/LeetCodeProblem/tree/master/3276-minimum-number-of-pushes-to-type-word-ii) |
 | [3360-minimum-deletions-to-make-string-k-special](https://github.com/Suraj1719/LeetCodeProblem/tree/master/3360-minimum-deletions-to-make-string-k-special) |
 | [3430-count-days-without-meetings](https://github.com/Suraj1719/LeetCodeProblem/tree/master/3430-count-days-without-meetings) |
@@ -217,6 +218,7 @@ Keep learning and Growing .
 | [2586-longest-square-streak-in-an-array](https://github.com/Suraj1719/LeetCodeProblem/tree/master/2586-longest-square-streak-in-an-array) |
 | [2689-rearranging-fruits](https://github.com/Suraj1719/LeetCodeProblem/tree/master/2689-rearranging-fruits) |
 | [2794-maximum-number-of-moves-in-a-grid](https://github.com/Suraj1719/LeetCodeProblem/tree/master/2794-maximum-number-of-moves-in-a-grid) |
+| [3010-divide-an-array-into-subarrays-with-minimum-cost-i](https://github.com/Suraj1719/LeetCodeProblem/tree/master/3010-divide-an-array-into-subarrays-with-minimum-cost-i) |
 | [3251-maximum-area-of-longest-diagonal-rectangle](https://github.com/Suraj1719/LeetCodeProblem/tree/master/3251-maximum-area-of-longest-diagonal-rectangle) |
 | [3430-count-days-without-meetings](https://github.com/Suraj1719/LeetCodeProblem/tree/master/3430-count-days-without-meetings) |
 | [3637-trionic-array-i](https://github.com/Suraj1719/LeetCodeProblem/tree/master/3637-trionic-array-i) |
@@ -337,6 +339,7 @@ Keep learning and Growing .
 | ------- |
 | [0900-reordered-power-of-2](https://github.com/Suraj1719/LeetCodeProblem/tree/master/0900-reordered-power-of-2) |
 | [2998-count-symmetric-integers](https://github.com/Suraj1719/LeetCodeProblem/tree/master/2998-count-symmetric-integers) |
+| [3010-divide-an-array-into-subarrays-with-minimum-cost-i](https://github.com/Suraj1719/LeetCodeProblem/tree/master/3010-divide-an-array-into-subarrays-with-minimum-cost-i) |
 ## Union Find
 |  |
 | ------- |
