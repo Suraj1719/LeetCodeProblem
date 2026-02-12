@@ -127,6 +127,7 @@ Keep learning and Growing .
 | [2689-rearranging-fruits](https://github.com/Suraj1719/LeetCodeProblem/tree/master/2689-rearranging-fruits) |
 | [3276-minimum-number-of-pushes-to-type-word-ii](https://github.com/Suraj1719/LeetCodeProblem/tree/master/3276-minimum-number-of-pushes-to-type-word-ii) |
 | [3360-minimum-deletions-to-make-string-k-special](https://github.com/Suraj1719/LeetCodeProblem/tree/master/3360-minimum-deletions-to-make-string-k-special) |
+| [3713-longest-balanced-substring-i](https://github.com/Suraj1719/LeetCodeProblem/tree/master/3713-longest-balanced-substring-i) |
 ## String
 |  |
 | ------- |
@@ -138,6 +139,7 @@ Keep learning and Growing .
 | [2095-minimum-number-of-swaps-to-make-the-string-balanced](https://github.com/Suraj1719/LeetCodeProblem/tree/master/2095-minimum-number-of-swaps-to-make-the-string-balanced) |
 | [3276-minimum-number-of-pushes-to-type-word-ii](https://github.com/Suraj1719/LeetCodeProblem/tree/master/3276-minimum-number-of-pushes-to-type-word-ii) |
 | [3360-minimum-deletions-to-make-string-k-special](https://github.com/Suraj1719/LeetCodeProblem/tree/master/3360-minimum-deletions-to-make-string-k-special) |
+| [3713-longest-balanced-substring-i](https://github.com/Suraj1719/LeetCodeProblem/tree/master/3713-longest-balanced-substring-i) |
 ## Greedy
 |  |
 | ------- |
@@ -176,6 +178,7 @@ Keep learning and Growing .
 | [0900-reordered-power-of-2](https://github.com/Suraj1719/LeetCodeProblem/tree/master/0900-reordered-power-of-2) |
 | [3276-minimum-number-of-pushes-to-type-word-ii](https://github.com/Suraj1719/LeetCodeProblem/tree/master/3276-minimum-number-of-pushes-to-type-word-ii) |
 | [3360-minimum-deletions-to-make-string-k-special](https://github.com/Suraj1719/LeetCodeProblem/tree/master/3360-minimum-deletions-to-make-string-k-special) |
+| [3713-longest-balanced-substring-i](https://github.com/Suraj1719/LeetCodeProblem/tree/master/3713-longest-balanced-substring-i) |
 ## Array
 |  |
 | ------- |
@@ -340,6 +343,7 @@ Keep learning and Growing .
 | [0900-reordered-power-of-2](https://github.com/Suraj1719/LeetCodeProblem/tree/master/0900-reordered-power-of-2) |
 | [2998-count-symmetric-integers](https://github.com/Suraj1719/LeetCodeProblem/tree/master/2998-count-symmetric-integers) |
 | [3010-divide-an-array-into-subarrays-with-minimum-cost-i](https://github.com/Suraj1719/LeetCodeProblem/tree/master/3010-divide-an-array-into-subarrays-with-minimum-cost-i) |
+| [3713-longest-balanced-substring-i](https://github.com/Suraj1719/LeetCodeProblem/tree/master/3713-longest-balanced-substring-i) |
 ## Union Find
 |  |
 | ------- |
