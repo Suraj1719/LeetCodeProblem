@@ -140,6 +140,7 @@ Keep learning and Growing .
 | [3276-minimum-number-of-pushes-to-type-word-ii](https://github.com/Suraj1719/LeetCodeProblem/tree/master/3276-minimum-number-of-pushes-to-type-word-ii) |
 | [3360-minimum-deletions-to-make-string-k-special](https://github.com/Suraj1719/LeetCodeProblem/tree/master/3360-minimum-deletions-to-make-string-k-special) |
 | [3713-longest-balanced-substring-i](https://github.com/Suraj1719/LeetCodeProblem/tree/master/3713-longest-balanced-substring-i) |
+| [3838-weighted-word-mapping](https://github.com/Suraj1719/LeetCodeProblem/tree/master/3838-weighted-word-mapping) |
 ## Greedy
 |  |
 | ------- |
@@ -227,6 +228,7 @@ Keep learning and Growing .
 | [3637-trionic-array-i](https://github.com/Suraj1719/LeetCodeProblem/tree/master/3637-trionic-array-i) |
 | [3747-maximum-difference-between-adjacent-elements-in-a-circular-array](https://github.com/Suraj1719/LeetCodeProblem/tree/master/3747-maximum-difference-between-adjacent-elements-in-a-circular-array) |
 | [3790-fruits-into-baskets-ii](https://github.com/Suraj1719/LeetCodeProblem/tree/master/3790-fruits-into-baskets-ii) |
+| [3838-weighted-word-mapping](https://github.com/Suraj1719/LeetCodeProblem/tree/master/3838-weighted-word-mapping) |
 ## Backtracking
 |  |
 | ------- |
@@ -247,6 +249,7 @@ Keep learning and Growing .
 | [2006-find-the-student-that-will-replace-the-chalk](https://github.com/Suraj1719/LeetCodeProblem/tree/master/2006-find-the-student-that-will-replace-the-chalk) |
 | [2132-convert-1d-array-into-2d-array](https://github.com/Suraj1719/LeetCodeProblem/tree/master/2132-convert-1d-array-into-2d-array) |
 | [3790-fruits-into-baskets-ii](https://github.com/Suraj1719/LeetCodeProblem/tree/master/3790-fruits-into-baskets-ii) |
+| [3838-weighted-word-mapping](https://github.com/Suraj1719/LeetCodeProblem/tree/master/3838-weighted-word-mapping) |
 ## Binary Search
 |  |
 | ------- |
