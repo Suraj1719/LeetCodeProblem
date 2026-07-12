@@ -3,14 +3,15 @@ class Solution {
     public int[] arrayRankTransform(int[] arr) {
         
         HashMap<Integer, Integer> numToRank = new HashMap<>();
-        int[] sortedArr = Arrays.copyOf(arr, arr.length);
-        Arrays.sort(sortedArr);
+        
+        TreeSet<Integer> unique = new TreeSet<>();
+        for (int num : arr){
+            unique.add(num);
+        }
         int rank = 1;
-        for (int i = 0; i < sortedArr.length; i++) {
-            if (i > 0 && sortedArr[i] > sortedArr[i - 1]) {
-                rank++;
-            }
-            numToRank.put(sortedArr[i], rank);
+        for (int num : unique) {
+            numToRank.put(num, rank);
+            rank++;
         }
         for (int i = 0; i < arr.length; i++) {
             arr[i] = numToRank.get(arr[i]);
