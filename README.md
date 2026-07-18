@@ -218,6 +218,7 @@ Keep learning and Growing .
 | [1628-count-submatrices-with-all-ones](https://github.com/Suraj1719/LeetCodeProblem/tree/master/1628-count-submatrices-with-all-ones) |
 | [1813-maximum-erasure-value](https://github.com/Suraj1719/LeetCodeProblem/tree/master/1813-maximum-erasure-value) |
 | [1917-maximum-average-pass-ratio](https://github.com/Suraj1719/LeetCodeProblem/tree/master/1917-maximum-average-pass-ratio) |
+| [1979-find-greatest-common-divisor-of-array](https://github.com/Suraj1719/LeetCodeProblem/tree/master/1979-find-greatest-common-divisor-of-array) |
 | [2006-find-the-student-that-will-replace-the-chalk](https://github.com/Suraj1719/LeetCodeProblem/tree/master/2006-find-the-student-that-will-replace-the-chalk) |
 | [2132-convert-1d-array-into-2d-array](https://github.com/Suraj1719/LeetCodeProblem/tree/master/2132-convert-1d-array-into-2d-array) |
 | [2144-maximum-difference-between-increasing-elements](https://github.com/Suraj1719/LeetCodeProblem/tree/master/2144-maximum-difference-between-increasing-elements) |
@@ -342,6 +343,7 @@ Keep learning and Growing .
 | [0539-minimum-time-difference](https://github.com/Suraj1719/LeetCodeProblem/tree/master/0539-minimum-time-difference) |
 | [0900-reordered-power-of-2](https://github.com/Suraj1719/LeetCodeProblem/tree/master/0900-reordered-power-of-2) |
 | [1411-convert-binary-number-in-a-linked-list-to-integer](https://github.com/Suraj1719/LeetCodeProblem/tree/master/1411-convert-binary-number-in-a-linked-list-to-integer) |
+| [1979-find-greatest-common-divisor-of-array](https://github.com/Suraj1719/LeetCodeProblem/tree/master/1979-find-greatest-common-divisor-of-array) |
 | [2998-count-symmetric-integers](https://github.com/Suraj1719/LeetCodeProblem/tree/master/2998-count-symmetric-integers) |
 | [3279-alice-and-bob-playing-flower-game](https://github.com/Suraj1719/LeetCodeProblem/tree/master/3279-alice-and-bob-playing-flower-game) |
 | [3756-concatenate-non-zero-digits-and-multiply-by-sum-ii](https://github.com/Suraj1719/LeetCodeProblem/tree/master/3756-concatenate-non-zero-digits-and-multiply-by-sum-ii) |
@@ -413,4 +415,8 @@ Keep learning and Growing .
 |  |
 | ------- |
 | [1628-count-submatrices-with-all-ones](https://github.com/Suraj1719/LeetCodeProblem/tree/master/1628-count-submatrices-with-all-ones) |
+## Number Theory
+|  |
+| ------- |
+| [1979-find-greatest-common-divisor-of-array](https://github.com/Suraj1719/LeetCodeProblem/tree/master/1979-find-greatest-common-divisor-of-array) |
 <!---LeetCode Topics End-->
