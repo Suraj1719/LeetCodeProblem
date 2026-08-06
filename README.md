@@ -348,6 +348,7 @@ Keep learning and Growing .
 | [1979-find-greatest-common-divisor-of-array](https://github.com/Suraj1719/LeetCodeProblem/tree/master/1979-find-greatest-common-divisor-of-array) |
 | [2998-count-symmetric-integers](https://github.com/Suraj1719/LeetCodeProblem/tree/master/2998-count-symmetric-integers) |
 | [3279-alice-and-bob-playing-flower-game](https://github.com/Suraj1719/LeetCodeProblem/tree/master/3279-alice-and-bob-playing-flower-game) |
+| [3345-smallest-divisible-digit-product-i](https://github.com/Suraj1719/LeetCodeProblem/tree/master/3345-smallest-divisible-digit-product-i) |
 | [3756-concatenate-non-zero-digits-and-multiply-by-sum-ii](https://github.com/Suraj1719/LeetCodeProblem/tree/master/3756-concatenate-non-zero-digits-and-multiply-by-sum-ii) |
 | [3830-find-closest-person](https://github.com/Suraj1719/LeetCodeProblem/tree/master/3830-find-closest-person) |
 ## Enumeration
@@ -356,6 +357,7 @@ Keep learning and Growing .
 | [0900-reordered-power-of-2](https://github.com/Suraj1719/LeetCodeProblem/tree/master/0900-reordered-power-of-2) |
 | [2998-count-symmetric-integers](https://github.com/Suraj1719/LeetCodeProblem/tree/master/2998-count-symmetric-integers) |
 | [3010-divide-an-array-into-subarrays-with-minimum-cost-i](https://github.com/Suraj1719/LeetCodeProblem/tree/master/3010-divide-an-array-into-subarrays-with-minimum-cost-i) |
+| [3345-smallest-divisible-digit-product-i](https://github.com/Suraj1719/LeetCodeProblem/tree/master/3345-smallest-divisible-digit-product-i) |
 | [3713-longest-balanced-substring-i](https://github.com/Suraj1719/LeetCodeProblem/tree/master/3713-longest-balanced-substring-i) |
 ## Union Find
 |  |
