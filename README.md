@@ -152,6 +152,7 @@ Keep learning and Growing .
 | [0902-minimum-number-of-refueling-stops](https://github.com/Suraj1719/LeetCodeProblem/tree/master/0902-minimum-number-of-refueling-stops) |
 | [1346-maximize-the-topmost-element-after-k-moves](https://github.com/Suraj1719/LeetCodeProblem/tree/master/1346-maximize-the-topmost-element-after-k-moves) |
 | [1917-maximum-average-pass-ratio](https://github.com/Suraj1719/LeetCodeProblem/tree/master/1917-maximum-average-pass-ratio) |
+| [2029-stone-game-ix](https://github.com/Suraj1719/LeetCodeProblem/tree/master/2029-stone-game-ix) |
 | [2095-minimum-number-of-swaps-to-make-the-string-balanced](https://github.com/Suraj1719/LeetCodeProblem/tree/master/2095-minimum-number-of-swaps-to-make-the-string-balanced) |
 | [2689-rearranging-fruits](https://github.com/Suraj1719/LeetCodeProblem/tree/master/2689-rearranging-fruits) |
 | [3276-minimum-number-of-pushes-to-type-word-ii](https://github.com/Suraj1719/LeetCodeProblem/tree/master/3276-minimum-number-of-pushes-to-type-word-ii) |
@@ -181,6 +182,7 @@ Keep learning and Growing .
 | ------- |
 | [0594-longest-harmonious-subsequence](https://github.com/Suraj1719/LeetCodeProblem/tree/master/0594-longest-harmonious-subsequence) |
 | [0900-reordered-power-of-2](https://github.com/Suraj1719/LeetCodeProblem/tree/master/0900-reordered-power-of-2) |
+| [2029-stone-game-ix](https://github.com/Suraj1719/LeetCodeProblem/tree/master/2029-stone-game-ix) |
 | [3276-minimum-number-of-pushes-to-type-word-ii](https://github.com/Suraj1719/LeetCodeProblem/tree/master/3276-minimum-number-of-pushes-to-type-word-ii) |
 | [3360-minimum-deletions-to-make-string-k-special](https://github.com/Suraj1719/LeetCodeProblem/tree/master/3360-minimum-deletions-to-make-string-k-special) |
 | [3713-longest-balanced-substring-i](https://github.com/Suraj1719/LeetCodeProblem/tree/master/3713-longest-balanced-substring-i) |
@@ -222,6 +224,7 @@ Keep learning and Growing .
 | [1917-maximum-average-pass-ratio](https://github.com/Suraj1719/LeetCodeProblem/tree/master/1917-maximum-average-pass-ratio) |
 | [1979-find-greatest-common-divisor-of-array](https://github.com/Suraj1719/LeetCodeProblem/tree/master/1979-find-greatest-common-divisor-of-array) |
 | [2006-find-the-student-that-will-replace-the-chalk](https://github.com/Suraj1719/LeetCodeProblem/tree/master/2006-find-the-student-that-will-replace-the-chalk) |
+| [2029-stone-game-ix](https://github.com/Suraj1719/LeetCodeProblem/tree/master/2029-stone-game-ix) |
 | [2132-convert-1d-array-into-2d-array](https://github.com/Suraj1719/LeetCodeProblem/tree/master/2132-convert-1d-array-into-2d-array) |
 | [2144-maximum-difference-between-increasing-elements](https://github.com/Suraj1719/LeetCodeProblem/tree/master/2144-maximum-difference-between-increasing-elements) |
 | [2204-find-subsequence-of-length-k-with-the-largest-sum](https://github.com/Suraj1719/LeetCodeProblem/tree/master/2204-find-subsequence-of-length-k-with-the-largest-sum) |
@@ -346,6 +349,7 @@ Keep learning and Growing .
 | [0900-reordered-power-of-2](https://github.com/Suraj1719/LeetCodeProblem/tree/master/0900-reordered-power-of-2) |
 | [1411-convert-binary-number-in-a-linked-list-to-integer](https://github.com/Suraj1719/LeetCodeProblem/tree/master/1411-convert-binary-number-in-a-linked-list-to-integer) |
 | [1979-find-greatest-common-divisor-of-array](https://github.com/Suraj1719/LeetCodeProblem/tree/master/1979-find-greatest-common-divisor-of-array) |
+| [2029-stone-game-ix](https://github.com/Suraj1719/LeetCodeProblem/tree/master/2029-stone-game-ix) |
 | [2998-count-symmetric-integers](https://github.com/Suraj1719/LeetCodeProblem/tree/master/2998-count-symmetric-integers) |
 | [3279-alice-and-bob-playing-flower-game](https://github.com/Suraj1719/LeetCodeProblem/tree/master/3279-alice-and-bob-playing-flower-game) |
 | [3345-smallest-divisible-digit-product-i](https://github.com/Suraj1719/LeetCodeProblem/tree/master/3345-smallest-divisible-digit-product-i) |
@@ -424,4 +428,20 @@ Keep learning and Growing .
 |  |
 | ------- |
 | [1979-find-greatest-common-divisor-of-array](https://github.com/Suraj1719/LeetCodeProblem/tree/master/1979-find-greatest-common-divisor-of-array) |
+## Minimax
+|  |
+| ------- |
+| [2029-stone-game-ix](https://github.com/Suraj1719/LeetCodeProblem/tree/master/2029-stone-game-ix) |
+## Game Theory
+|  |
+| ------- |
+| [2029-stone-game-ix](https://github.com/Suraj1719/LeetCodeProblem/tree/master/2029-stone-game-ix) |
+## Nim Game
+|  |
+| ------- |
+| [2029-stone-game-ix](https://github.com/Suraj1719/LeetCodeProblem/tree/master/2029-stone-game-ix) |
+## Zero-Sum Game
+|  |
+| ------- |
+| [2029-stone-game-ix](https://github.com/Suraj1719/LeetCodeProblem/tree/master/2029-stone-game-ix) |
 <!---LeetCode Topics End-->
