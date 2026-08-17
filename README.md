@@ -218,6 +218,7 @@ Keep learning and Growing .
 | [1346-maximize-the-topmost-element-after-k-moves](https://github.com/Suraj1719/LeetCodeProblem/tree/master/1346-maximize-the-topmost-element-after-k-moves) |
 | [1435-xor-queries-of-a-subarray](https://github.com/Suraj1719/LeetCodeProblem/tree/master/1435-xor-queries-of-a-subarray) |
 | [1464-maximum-product-of-two-elements-in-an-array](https://github.com/Suraj1719/LeetCodeProblem/tree/master/1464-maximum-product-of-two-elements-in-an-array) |
+| [1563-stone-game-v](https://github.com/Suraj1719/LeetCodeProblem/tree/master/1563-stone-game-v) |
 | [1586-longest-subarray-of-1s-after-deleting-one-element](https://github.com/Suraj1719/LeetCodeProblem/tree/master/1586-longest-subarray-of-1s-after-deleting-one-element) |
 | [1628-count-submatrices-with-all-ones](https://github.com/Suraj1719/LeetCodeProblem/tree/master/1628-count-submatrices-with-all-ones) |
 | [1813-maximum-erasure-value](https://github.com/Suraj1719/LeetCodeProblem/tree/master/1813-maximum-erasure-value) |
@@ -304,6 +305,7 @@ Keep learning and Growing .
 | [0120-triangle](https://github.com/Suraj1719/LeetCodeProblem/tree/master/0120-triangle) |
 | [0416-partition-equal-subset-sum](https://github.com/Suraj1719/LeetCodeProblem/tree/master/0416-partition-equal-subset-sum) |
 | [0902-minimum-number-of-refueling-stops](https://github.com/Suraj1719/LeetCodeProblem/tree/master/0902-minimum-number-of-refueling-stops) |
+| [1563-stone-game-v](https://github.com/Suraj1719/LeetCodeProblem/tree/master/1563-stone-game-v) |
 | [1586-longest-subarray-of-1s-after-deleting-one-element](https://github.com/Suraj1719/LeetCodeProblem/tree/master/1586-longest-subarray-of-1s-after-deleting-one-element) |
 | [1628-count-submatrices-with-all-ones](https://github.com/Suraj1719/LeetCodeProblem/tree/master/1628-count-submatrices-with-all-ones) |
 | [2586-longest-square-streak-in-an-array](https://github.com/Suraj1719/LeetCodeProblem/tree/master/2586-longest-square-streak-in-an-array) |
@@ -348,6 +350,7 @@ Keep learning and Growing .
 | [0539-minimum-time-difference](https://github.com/Suraj1719/LeetCodeProblem/tree/master/0539-minimum-time-difference) |
 | [0900-reordered-power-of-2](https://github.com/Suraj1719/LeetCodeProblem/tree/master/0900-reordered-power-of-2) |
 | [1411-convert-binary-number-in-a-linked-list-to-integer](https://github.com/Suraj1719/LeetCodeProblem/tree/master/1411-convert-binary-number-in-a-linked-list-to-integer) |
+| [1563-stone-game-v](https://github.com/Suraj1719/LeetCodeProblem/tree/master/1563-stone-game-v) |
 | [1979-find-greatest-common-divisor-of-array](https://github.com/Suraj1719/LeetCodeProblem/tree/master/1979-find-greatest-common-divisor-of-array) |
 | [2029-stone-game-ix](https://github.com/Suraj1719/LeetCodeProblem/tree/master/2029-stone-game-ix) |
 | [2998-count-symmetric-integers](https://github.com/Suraj1719/LeetCodeProblem/tree/master/2998-count-symmetric-integers) |
@@ -435,6 +438,7 @@ Keep learning and Growing .
 ## Game Theory
 |  |
 | ------- |
+| [1563-stone-game-v](https://github.com/Suraj1719/LeetCodeProblem/tree/master/1563-stone-game-v) |
 | [2029-stone-game-ix](https://github.com/Suraj1719/LeetCodeProblem/tree/master/2029-stone-game-ix) |
 ## Nim Game
 |  |
