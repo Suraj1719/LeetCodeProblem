@@ -121,6 +121,7 @@ Keep learning and Growing .
 | [0906-walking-robot-simulation](https://github.com/Suraj1719/LeetCodeProblem/tree/master/0906-walking-robot-simulation) |
 | [1016-subarray-sums-divisible-by-k](https://github.com/Suraj1719/LeetCodeProblem/tree/master/1016-subarray-sums-divisible-by-k) |
 | [1331-rank-transform-of-an-array](https://github.com/Suraj1719/LeetCodeProblem/tree/master/1331-rank-transform-of-an-array) |
+| [1386-cinema-seat-allocation](https://github.com/Suraj1719/LeetCodeProblem/tree/master/1386-cinema-seat-allocation) |
 | [1813-maximum-erasure-value](https://github.com/Suraj1719/LeetCodeProblem/tree/master/1813-maximum-erasure-value) |
 | [2044-number-of-wonderful-substrings](https://github.com/Suraj1719/LeetCodeProblem/tree/master/2044-number-of-wonderful-substrings) |
 | [2204-find-subsequence-of-length-k-with-the-largest-sum](https://github.com/Suraj1719/LeetCodeProblem/tree/master/2204-find-subsequence-of-length-k-with-the-largest-sum) |
@@ -152,6 +153,7 @@ Keep learning and Growing .
 | [0134-gas-station](https://github.com/Suraj1719/LeetCodeProblem/tree/master/0134-gas-station) |
 | [0902-minimum-number-of-refueling-stops](https://github.com/Suraj1719/LeetCodeProblem/tree/master/0902-minimum-number-of-refueling-stops) |
 | [1346-maximize-the-topmost-element-after-k-moves](https://github.com/Suraj1719/LeetCodeProblem/tree/master/1346-maximize-the-topmost-element-after-k-moves) |
+| [1386-cinema-seat-allocation](https://github.com/Suraj1719/LeetCodeProblem/tree/master/1386-cinema-seat-allocation) |
 | [1917-maximum-average-pass-ratio](https://github.com/Suraj1719/LeetCodeProblem/tree/master/1917-maximum-average-pass-ratio) |
 | [2029-stone-game-ix](https://github.com/Suraj1719/LeetCodeProblem/tree/master/2029-stone-game-ix) |
 | [2095-minimum-number-of-swaps-to-make-the-string-balanced](https://github.com/Suraj1719/LeetCodeProblem/tree/master/2095-minimum-number-of-swaps-to-make-the-string-balanced) |
@@ -217,6 +219,7 @@ Keep learning and Growing .
 | [1293-three-consecutive-odds](https://github.com/Suraj1719/LeetCodeProblem/tree/master/1293-three-consecutive-odds) |
 | [1331-rank-transform-of-an-array](https://github.com/Suraj1719/LeetCodeProblem/tree/master/1331-rank-transform-of-an-array) |
 | [1346-maximize-the-topmost-element-after-k-moves](https://github.com/Suraj1719/LeetCodeProblem/tree/master/1346-maximize-the-topmost-element-after-k-moves) |
+| [1386-cinema-seat-allocation](https://github.com/Suraj1719/LeetCodeProblem/tree/master/1386-cinema-seat-allocation) |
 | [1435-xor-queries-of-a-subarray](https://github.com/Suraj1719/LeetCodeProblem/tree/master/1435-xor-queries-of-a-subarray) |
 | [1464-maximum-product-of-two-elements-in-an-array](https://github.com/Suraj1719/LeetCodeProblem/tree/master/1464-maximum-product-of-two-elements-in-an-array) |
 | [1563-stone-game-v](https://github.com/Suraj1719/LeetCodeProblem/tree/master/1563-stone-game-v) |
@@ -284,6 +287,7 @@ Keep learning and Growing .
 ## Bit Manipulation
 |  |
 | ------- |
+| [1386-cinema-seat-allocation](https://github.com/Suraj1719/LeetCodeProblem/tree/master/1386-cinema-seat-allocation) |
 | [1435-xor-queries-of-a-subarray](https://github.com/Suraj1719/LeetCodeProblem/tree/master/1435-xor-queries-of-a-subarray) |
 | [2044-number-of-wonderful-substrings](https://github.com/Suraj1719/LeetCodeProblem/tree/master/2044-number-of-wonderful-substrings) |
 | [2503-longest-subarray-with-maximum-bitwise-and](https://github.com/Suraj1719/LeetCodeProblem/tree/master/2503-longest-subarray-with-maximum-bitwise-and) |
