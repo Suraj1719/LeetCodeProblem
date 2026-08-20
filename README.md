@@ -238,6 +238,7 @@ Keep learning and Growing .
 | [2689-rearranging-fruits](https://github.com/Suraj1719/LeetCodeProblem/tree/master/2689-rearranging-fruits) |
 | [2794-maximum-number-of-moves-in-a-grid](https://github.com/Suraj1719/LeetCodeProblem/tree/master/2794-maximum-number-of-moves-in-a-grid) |
 | [3010-divide-an-array-into-subarrays-with-minimum-cost-i](https://github.com/Suraj1719/LeetCodeProblem/tree/master/3010-divide-an-array-into-subarrays-with-minimum-cost-i) |
+| [3069-distribute-elements-into-two-arrays-i](https://github.com/Suraj1719/LeetCodeProblem/tree/master/3069-distribute-elements-into-two-arrays-i) |
 | [3251-maximum-area-of-longest-diagonal-rectangle](https://github.com/Suraj1719/LeetCodeProblem/tree/master/3251-maximum-area-of-longest-diagonal-rectangle) |
 | [3430-count-days-without-meetings](https://github.com/Suraj1719/LeetCodeProblem/tree/master/3430-count-days-without-meetings) |
 | [3471-find-the-largest-almost-missing-integer](https://github.com/Suraj1719/LeetCodeProblem/tree/master/3471-find-the-largest-almost-missing-integer) |
@@ -264,6 +265,7 @@ Keep learning and Growing .
 | [0906-walking-robot-simulation](https://github.com/Suraj1719/LeetCodeProblem/tree/master/0906-walking-robot-simulation) |
 | [2006-find-the-student-that-will-replace-the-chalk](https://github.com/Suraj1719/LeetCodeProblem/tree/master/2006-find-the-student-that-will-replace-the-chalk) |
 | [2132-convert-1d-array-into-2d-array](https://github.com/Suraj1719/LeetCodeProblem/tree/master/2132-convert-1d-array-into-2d-array) |
+| [3069-distribute-elements-into-two-arrays-i](https://github.com/Suraj1719/LeetCodeProblem/tree/master/3069-distribute-elements-into-two-arrays-i) |
 | [3790-fruits-into-baskets-ii](https://github.com/Suraj1719/LeetCodeProblem/tree/master/3790-fruits-into-baskets-ii) |
 | [3838-weighted-word-mapping](https://github.com/Suraj1719/LeetCodeProblem/tree/master/3838-weighted-word-mapping) |
 ## Binary Search
