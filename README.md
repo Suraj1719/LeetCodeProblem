@@ -239,6 +239,7 @@ Keep learning and Growing .
 | [2794-maximum-number-of-moves-in-a-grid](https://github.com/Suraj1719/LeetCodeProblem/tree/master/2794-maximum-number-of-moves-in-a-grid) |
 | [3010-divide-an-array-into-subarrays-with-minimum-cost-i](https://github.com/Suraj1719/LeetCodeProblem/tree/master/3010-divide-an-array-into-subarrays-with-minimum-cost-i) |
 | [3069-distribute-elements-into-two-arrays-i](https://github.com/Suraj1719/LeetCodeProblem/tree/master/3069-distribute-elements-into-two-arrays-i) |
+| [3116-kth-smallest-amount-with-single-denomination-combination](https://github.com/Suraj1719/LeetCodeProblem/tree/master/3116-kth-smallest-amount-with-single-denomination-combination) |
 | [3251-maximum-area-of-longest-diagonal-rectangle](https://github.com/Suraj1719/LeetCodeProblem/tree/master/3251-maximum-area-of-longest-diagonal-rectangle) |
 | [3430-count-days-without-meetings](https://github.com/Suraj1719/LeetCodeProblem/tree/master/3430-count-days-without-meetings) |
 | [3471-find-the-largest-almost-missing-integer](https://github.com/Suraj1719/LeetCodeProblem/tree/master/3471-find-the-largest-almost-missing-integer) |
@@ -275,6 +276,7 @@ Keep learning and Growing .
 | [1056-capacity-to-ship-packages-within-d-days](https://github.com/Suraj1719/LeetCodeProblem/tree/master/1056-capacity-to-ship-packages-within-d-days) |
 | [2006-find-the-student-that-will-replace-the-chalk](https://github.com/Suraj1719/LeetCodeProblem/tree/master/2006-find-the-student-that-will-replace-the-chalk) |
 | [2586-longest-square-streak-in-an-array](https://github.com/Suraj1719/LeetCodeProblem/tree/master/2586-longest-square-streak-in-an-array) |
+| [3116-kth-smallest-amount-with-single-denomination-combination](https://github.com/Suraj1719/LeetCodeProblem/tree/master/3116-kth-smallest-amount-with-single-denomination-combination) |
 | [3790-fruits-into-baskets-ii](https://github.com/Suraj1719/LeetCodeProblem/tree/master/3790-fruits-into-baskets-ii) |
 ## Prefix Sum
 |  |
@@ -293,6 +295,7 @@ Keep learning and Growing .
 | [1435-xor-queries-of-a-subarray](https://github.com/Suraj1719/LeetCodeProblem/tree/master/1435-xor-queries-of-a-subarray) |
 | [2044-number-of-wonderful-substrings](https://github.com/Suraj1719/LeetCodeProblem/tree/master/2044-number-of-wonderful-substrings) |
 | [2503-longest-subarray-with-maximum-bitwise-and](https://github.com/Suraj1719/LeetCodeProblem/tree/master/2503-longest-subarray-with-maximum-bitwise-and) |
+| [3116-kth-smallest-amount-with-single-denomination-combination](https://github.com/Suraj1719/LeetCodeProblem/tree/master/3116-kth-smallest-amount-with-single-denomination-combination) |
 ## Brainteaser
 |  |
 | ------- |
@@ -362,6 +365,7 @@ Keep learning and Growing .
 | [1979-find-greatest-common-divisor-of-array](https://github.com/Suraj1719/LeetCodeProblem/tree/master/1979-find-greatest-common-divisor-of-array) |
 | [2029-stone-game-ix](https://github.com/Suraj1719/LeetCodeProblem/tree/master/2029-stone-game-ix) |
 | [2998-count-symmetric-integers](https://github.com/Suraj1719/LeetCodeProblem/tree/master/2998-count-symmetric-integers) |
+| [3116-kth-smallest-amount-with-single-denomination-combination](https://github.com/Suraj1719/LeetCodeProblem/tree/master/3116-kth-smallest-amount-with-single-denomination-combination) |
 | [3279-alice-and-bob-playing-flower-game](https://github.com/Suraj1719/LeetCodeProblem/tree/master/3279-alice-and-bob-playing-flower-game) |
 | [3345-smallest-divisible-digit-product-i](https://github.com/Suraj1719/LeetCodeProblem/tree/master/3345-smallest-divisible-digit-product-i) |
 | [3756-concatenate-non-zero-digits-and-multiply-by-sum-ii](https://github.com/Suraj1719/LeetCodeProblem/tree/master/3756-concatenate-non-zero-digits-and-multiply-by-sum-ii) |
@@ -439,6 +443,7 @@ Keep learning and Growing .
 |  |
 | ------- |
 | [1979-find-greatest-common-divisor-of-array](https://github.com/Suraj1719/LeetCodeProblem/tree/master/1979-find-greatest-common-divisor-of-array) |
+| [3116-kth-smallest-amount-with-single-denomination-combination](https://github.com/Suraj1719/LeetCodeProblem/tree/master/3116-kth-smallest-amount-with-single-denomination-combination) |
 ## Minimax
 |  |
 | ------- |
@@ -456,4 +461,8 @@ Keep learning and Growing .
 |  |
 | ------- |
 | [2029-stone-game-ix](https://github.com/Suraj1719/LeetCodeProblem/tree/master/2029-stone-game-ix) |
+## Combinatorics
+|  |
+| ------- |
+| [3116-kth-smallest-amount-with-single-denomination-combination](https://github.com/Suraj1719/LeetCodeProblem/tree/master/3116-kth-smallest-amount-with-single-denomination-combination) |
 <!---LeetCode Topics End-->
