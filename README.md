@@ -138,6 +138,7 @@ Keep learning and Growing .
 | [0438-find-all-anagrams-in-a-string](https://github.com/Suraj1719/LeetCodeProblem/tree/master/0438-find-all-anagrams-in-a-string) |
 | [0539-minimum-time-difference](https://github.com/Suraj1719/LeetCodeProblem/tree/master/0539-minimum-time-difference) |
 | [1302-delete-characters-to-make-fancy-string](https://github.com/Suraj1719/LeetCodeProblem/tree/master/1302-delete-characters-to-make-fancy-string) |
+| [1927-sum-game](https://github.com/Suraj1719/LeetCodeProblem/tree/master/1927-sum-game) |
 | [2044-number-of-wonderful-substrings](https://github.com/Suraj1719/LeetCodeProblem/tree/master/2044-number-of-wonderful-substrings) |
 | [2095-minimum-number-of-swaps-to-make-the-string-balanced](https://github.com/Suraj1719/LeetCodeProblem/tree/master/2095-minimum-number-of-swaps-to-make-the-string-balanced) |
 | [3276-minimum-number-of-pushes-to-type-word-ii](https://github.com/Suraj1719/LeetCodeProblem/tree/master/3276-minimum-number-of-pushes-to-type-word-ii) |
@@ -155,6 +156,7 @@ Keep learning and Growing .
 | [1346-maximize-the-topmost-element-after-k-moves](https://github.com/Suraj1719/LeetCodeProblem/tree/master/1346-maximize-the-topmost-element-after-k-moves) |
 | [1386-cinema-seat-allocation](https://github.com/Suraj1719/LeetCodeProblem/tree/master/1386-cinema-seat-allocation) |
 | [1917-maximum-average-pass-ratio](https://github.com/Suraj1719/LeetCodeProblem/tree/master/1917-maximum-average-pass-ratio) |
+| [1927-sum-game](https://github.com/Suraj1719/LeetCodeProblem/tree/master/1927-sum-game) |
 | [2029-stone-game-ix](https://github.com/Suraj1719/LeetCodeProblem/tree/master/2029-stone-game-ix) |
 | [2095-minimum-number-of-swaps-to-make-the-string-balanced](https://github.com/Suraj1719/LeetCodeProblem/tree/master/2095-minimum-number-of-swaps-to-make-the-string-balanced) |
 | [2689-rearranging-fruits](https://github.com/Suraj1719/LeetCodeProblem/tree/master/2689-rearranging-fruits) |
@@ -362,6 +364,7 @@ Keep learning and Growing .
 | [0900-reordered-power-of-2](https://github.com/Suraj1719/LeetCodeProblem/tree/master/0900-reordered-power-of-2) |
 | [1411-convert-binary-number-in-a-linked-list-to-integer](https://github.com/Suraj1719/LeetCodeProblem/tree/master/1411-convert-binary-number-in-a-linked-list-to-integer) |
 | [1563-stone-game-v](https://github.com/Suraj1719/LeetCodeProblem/tree/master/1563-stone-game-v) |
+| [1927-sum-game](https://github.com/Suraj1719/LeetCodeProblem/tree/master/1927-sum-game) |
 | [1979-find-greatest-common-divisor-of-array](https://github.com/Suraj1719/LeetCodeProblem/tree/master/1979-find-greatest-common-divisor-of-array) |
 | [2029-stone-game-ix](https://github.com/Suraj1719/LeetCodeProblem/tree/master/2029-stone-game-ix) |
 | [2998-count-symmetric-integers](https://github.com/Suraj1719/LeetCodeProblem/tree/master/2998-count-symmetric-integers) |
@@ -452,6 +455,7 @@ Keep learning and Growing .
 |  |
 | ------- |
 | [1563-stone-game-v](https://github.com/Suraj1719/LeetCodeProblem/tree/master/1563-stone-game-v) |
+| [1927-sum-game](https://github.com/Suraj1719/LeetCodeProblem/tree/master/1927-sum-game) |
 | [2029-stone-game-ix](https://github.com/Suraj1719/LeetCodeProblem/tree/master/2029-stone-game-ix) |
 ## Nim Game
 |  |
